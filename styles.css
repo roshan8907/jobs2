@@ -832,10 +832,15 @@ button {
         max-height: 300px;
         overflow-y: auto;
         z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
     }
 
     .dropdown.active .dropdown-menu {
         display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
     }
 
     .countries-dropdown {
