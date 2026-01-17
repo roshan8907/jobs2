@@ -233,6 +233,9 @@ app.get('/api/dashboard/employer', (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server running at:`);
+    console.log(`- Local: http://localhost:${PORT}`);
+    console.log(`- Network: http://192.168.8.66:${PORT}`);
+    console.log(`\nAccess from mobile device using: http://192.168.8.66:${PORT}`);
 });

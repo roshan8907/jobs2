@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:3000';
+const API_BASE = window.location.origin; // Dynamically use the current host (works on PC and Mobile)
 // Keep existing jobsData if data.js was loaded, otherwise init empty
 if (typeof jobsData === 'undefined') {
     var jobsData = [];
@@ -55,20 +55,41 @@ function initMobileMenu() {
 
     // Mobile dropdown toggle - always attach for responsive behavior
     const dropdowns = document.querySelectorAll('.dropdown');
+    console.log('Found dropdowns:', dropdowns.length);
+
     dropdowns.forEach(dropdown => {
         const toggle = dropdown.querySelector('.dropdown-toggle');
         if (toggle) {
-            toggle.addEventListener('click', (e) => {
+            console.log('Attaching click handler to dropdown toggle');
+
+            // Handle both click and touch events
+            const handleToggle = (e) => {
+                console.log('Dropdown clicked, window width:', window.innerWidth);
+
                 // Only prevent default and toggle on mobile
                 if (window.innerWidth <= 968) {
                     e.preventDefault();
-                    dropdown.classList.toggle('active');
-                    // Close other dropdowns
+                    e.stopPropagation();
+
+                    const wasActive = dropdown.classList.contains('active');
+
+                    // Close all dropdowns first
                     dropdowns.forEach(other => {
-                        if (other !== dropdown) other.classList.remove('active');
+                        other.classList.remove('active');
                     });
+
+                    // Toggle this dropdown
+                    if (!wasActive) {
+                        dropdown.classList.add('active');
+                        console.log('Dropdown opened');
+                    } else {
+                        console.log('Dropdown closed');
+                    }
                 }
-            });
+            };
+
+            toggle.addEventListener('click', handleToggle);
+            toggle.addEventListener('touchstart', handleToggle, { passive: false });
         }
     });
 
