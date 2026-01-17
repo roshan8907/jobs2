@@ -774,6 +774,7 @@ button {
 
     .logo span {
         font-size: 1rem !important;
+        color: var(--primary-color);
     }
 
     .logo::after {
