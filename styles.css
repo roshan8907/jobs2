@@ -765,6 +765,8 @@ button {
         order: 1;
         font-size: 0;
         flex-shrink: 0;
+        display: flex;
+        align-items: center;
     }
 
     .logo img {
@@ -775,13 +777,15 @@ button {
     .logo span {
         font-size: 1rem !important;
         color: var(--primary-color);
+        order: 2;
     }
 
-    .logo::after {
+    .logo::before {
         content: 'Global ';
         font-size: 1rem;
         font-weight: 700;
         color: var(--text-dark);
+        order: 1;
     }
 
     .nav-links {
