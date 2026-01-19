@@ -427,7 +427,7 @@ This role comes with the added benefit of colleague accommodation. We welcome ap
         title: "Senior Data Engineer (AWS)",
         company: "AI Talent",
         location: "Sydney, NSW, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Information Technology",
         salary: "Competitive",
@@ -462,7 +462,7 @@ Visa Information:
         title: "Workday Systems Support Finance",
         company: "University of Melbourne",
         location: "Melbourne, Victoria, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Information Technology",
         salary: "$111,275 - $120,453 AUD per year",
@@ -498,7 +498,7 @@ This role is open to overseas applicants; sponsorship (482/186/485) is an option
         title: "Baker",
         company: "Lake House",
         location: "Daylesford, Victoria, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Hospitality",
         salary: "$76,515 per year + super",
@@ -535,7 +535,7 @@ Hours: Full-time (40 hours per week).`,
         title: "Occupational Therapist (New Grad to Senior)",
         company: "Living Strength Care",
         location: "Central Coast & Gosford, NSW, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time / Part-time",
         industry: "Healthcare",
         salary: "Competitive salary + car allowance + super",
@@ -575,7 +575,7 @@ About You:
         title: "General Practitioner (GP) - DPA Location",
         company: "HealthStaff Recruitment",
         location: "Canberra, ACT, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Healthcare",
         salary: "$175/hr guarantee or 70% of billings",
@@ -609,7 +609,7 @@ We manage the entire process of your registration and visa applications. Our ser
         title: "General Practitioner (GP) - Raymond Terrace",
         company: "HealthStaff Recruitment",
         location: "Raymond Terrace, NSW, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Healthcare",
         salary: "$350,000+ per year",
@@ -644,7 +644,7 @@ Raymond Terrace is a friendly, multicultural community just 30 minutes from the 
         title: "Lead Veterinarian",
         company: "Burpengary Vet",
         location: "Burpengary, Queensland, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Healthcare",
         salary: "Competitive",
@@ -685,7 +685,7 @@ About You:
         title: "Sushi Chef",
         company: "Go-Jip K Grill & Sushi Buffet",
         location: "Underwood, Queensland, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time / Part-time",
         industry: "Hospitality",
         salary: "$65,000 - $73,000 per year",
@@ -723,7 +723,7 @@ What We Offer:
         title: "Sushi Chef",
         company: "SL Bros group Pty Ltd",
         location: "Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time & Part-time",
         industry: "Hospitality",
         salary: "$65,000 - $73,000 per year",
@@ -752,7 +752,7 @@ What We Offer:
         title: "Occupational Therapist - Sponsorship in Australia",
         company: "Health and Community Recruitment",
         location: "Sydney, NSW, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Health and Care",
         salary: "$80,000 - $95,000 + benefits",
@@ -786,7 +786,7 @@ Requirements:
         title: "Consultant Psychiatrist (Inpatient & Community)",
         company: "Santé Recruitment",
         location: "Regional Victoria, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time / Part-time",
         industry: "Health and Care",
         salary: "Up to $445,000 + Super",
@@ -825,7 +825,7 @@ What’s on Offer:
         title: "Manicurist (Nail Technician)",
         company: "Unique Nails & Beauty",
         location: "Southport, Queensland, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time / Part-time",
         industry: "Trades and Services",
         salary: "$27 - $60 per hour",
@@ -860,7 +860,7 @@ Additional Perks:
         title: "General Practitioner (VR or Non-VR GP)",
         company: "WAVELENGTH",
         location: "Mansfield, Victoria, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Healthcare",
         salary: "60% Billings ($15k/week potential)",
@@ -896,7 +896,7 @@ Eligibility:
         title: "Head of Department – Electrical & Electronic Engineering",
         company: "University of Melbourne",
         location: "Melbourne, Victoria, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Education",
         salary: "$236,824 p.a. + 17% super",
@@ -932,7 +932,7 @@ Visa sponsorship is available for this position (482/186). A Working with Childr
         title: "Restoration Technician (Carpet & Flood)",
         company: "Elite Maintenance Services Group",
         location: "Hobart, Tasmania, Australia",
-        country: "au",
+        country: "australia",
         type: "Part-time",
         industry: "Trades and Services",
         salary: "Competitive (Negotiable)",
@@ -970,7 +970,7 @@ What We Offer:
         title: "Pharmacist",
         company: "Green Life Clinics and Dispensaries",
         location: "Robina, Queensland, Australia",
-        country: "au",
+        country: "australia",
         type: "Full-time",
         industry: "Healthcare",
         salary: "Competitive",
@@ -1004,5 +1004,333 @@ What We Offer:
         visaSponsorship: true,
         publishedDate: "Jan 18, 2026",
         externalUrl: "https://www.adzuna.com.au/details/5590258101"
+    },
+    {
+        id: 28,
+        slug: "clinical-charge-nurse-health-new-zealand-auckland",
+        title: "Clinical Charge Nurse (Intensive Care)",
+        company: "Health New Zealand - Te Toka Tumai",
+        location: "Auckland, New Zealand",
+        country: "new-zealand",
+        type: "Full-time",
+        industry: "Healthcare",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Health+New+Zealand&background=random&color=fff&size=128&bold=true",
+        description: `Clinical Charge Nurse - Adult General Intensive Care
+
+Join the Department of Critical Care Medicine (DCCM) at Te Toka Tumai Auckland. We are looking for highly motivated, passionate experienced ICU nurses to lead the day-to-day management of specialized patient care and support a dedicated team.
+
+The Opportunity:
+The Department of Critical Care Medicine is a 26-bedded general adult intensive care unit. We provide critical and high dependency care for national and regional specialties, including major trauma, neurosurgery, vascular, liver and kidney transplants, and more.
+
+Your Responsibilities:
+- Lead the day-to-day management of specialized patient care.
+- Support and develop your own team within the DCCM.
+- Collaborate with the Senior Leadership team to support the development and direction of the unit.
+- Work closely with the Nurse Unit Manager, Education team, and Senior Medical Officers.
+- Coordinate elective and acute patient workloads efficiently.
+
+Important Skills:
+- NZ Nursing Registration and a current annual practicing certificate.
+- At least 3 years' experience working within an Intensive Care environment.
+- Highly proficient skills in critical care nursing practice.
+- Demonstrated leadership experience at a senior level.
+- Post-graduate ICU qualification is preferred.
+- Commitment to providing excellent care for patients and staff.
+
+What We Offer:
+- A challenging and exciting nursing leadership role in a major tertiary hospital.
+- Support for professional development and career growth.
+- Assistance for international applicants via the Accredited Employer Work Visa (AEWV) pathway.
+- A culture that values role modeling manaakitanga and equitable outcomes.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://jobs.tewhatuora.govt.nz/jobtools/jncustomsearch.viewFullSingle?in_organid=19739&in_jnCounter=226446178&in_site=TradeMe"
+    },
+    {
+        id: 29,
+        slug: "technical-solutions-architect-the-web-guys-auckland",
+        title: "Technical Solutions Architect",
+        company: "The Web Guys",
+        location: "Auckland City, Auckland, New Zealand",
+        country: "new-zealand",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "$139,900 - $154,000 per annum",
+        image: "https://ui-avatars.com/api/?name=The+Web+Guys&background=random&color=fff&size=128&bold=true",
+        description: `Technical Solutions Architect - Enterprise & AI
+
+Join a dynamic, growth-oriented team to design and oversee the implementation of enterprise technology solutions across web, cloud, and digital platforms. This role is pivotal in shaping how emerging technologies, particularly AI and automation, are integrated into business workflows.
+
+Your Role:
+Architect scalable and secure solutions for websites, applications, and cloud platforms. You will bridge the gap between technical teams and business stakeholders, ensuring projects are strategically aligned with client goals.
+
+Key Responsibilities:
+- Design end-to-end solutions integrating databases, APIs, and third-party platforms.
+- Shape AI and automation strategies, overseeing POCs through to production deployment.
+- Translate complex business requirements into technical roadmaps and strategies.
+- Lead client discovery sessions and explain technical concepts to non-technical audiences.
+- Set standards for architecture, security, and compliance.
+
+Skills & Experience:
+- 5+ years' experience in Solutions Architecture or technical leadership.
+- Strong background in cloud platforms (AWS, Azure, GCP).
+- Knowledge of AI/ML concepts (LLMs, NLP, automation) is highly regarded.
+- Proficiency in APIs, microservices, and DevOps/MLOps frameworks.
+- Excellent communication, documentation, and stakeholder management skills.
+
+What We Offer:
+- Competitive salary ($139,900 - $154,000 p.a.) reflecting your expertise.
+- Modern office in Parnell with onsite parking.
+- Hybrid working arrangement (2 days remote).
+- Tools provided: MacBook and iPhone.
+- Visa sponsorship available (AEWV / Green List) for eligible candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1010001703529"
+    },
+    {
+        id: 30,
+        slug: "psychologist-habit-health-marlborough",
+        title: "Psychologist",
+        company: "Habit Health",
+        location: "Blenheim, Marlborough, New Zealand",
+        country: "new-zealand",
+        type: "Full-time / Part-time",
+        industry: "Healthcare",
+        salary: "Competitive + Monthly Bonus",
+        image: "https://ui-avatars.com/api/?name=Habit+Health&background=random&color=fff&size=128&bold=true",
+        description: `Psychologist - Rehabilitation Specialist
+
+Habit Health is a nationwide healthcare provider specializing in rehabilitation. Our Blenheim team is looking for an experienced Psychologist to grow their clinical skills and assist in patient care and well-being.
+
+Your Responsibilities:
+- Deliver assessments and recommendations backed by clinical reasoning.
+- Complete written and verbal summaries of assessments.
+- Assist in developing training and resources for services delivered.
+- Collaborate and grow within a multidisciplinary team (MDT).
+
+What We Offer:
+- Market competitive salary and a monthly bonus scheme.
+- Uncapped incentive program based on performance.
+- Provision of enhanced AI tools (Heidi) to automate documentation.
+- Annual budget for professional development and study.
+- Clinical supervision and support for work-life balance.
+- Well-being initiatives: annual eye exams, flu vaccinations, and EAP access.
+
+Requirements:
+- MA / PG Dip / DClin or similar qualification.
+- Registration as a Psychologist with the New Zealand Psychologists’ Board (current APC).
+- Membership of a Professional Body (NZCCP or NZPS).
+- Approachability and a people-centered disposition.
+
+For Overseas Applicants:
+- AEWV process assistance (Accredited Employer).
+- Support with NZ Psychologists Board registration.
+- Assistance with settling into New Zealand.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1010000194497"
+    },
+    {
+        id: 31,
+        slug: "radiation-therapist-health-new-zealand-multiple-locations",
+        title: "Radiation Therapist",
+        company: "Health New Zealand - Te Whatu Ora",
+        location: "Multiple Locations, New Zealand",
+        country: "new-zealand",
+        type: "Full-time",
+        industry: "Healthcare",
+        salary: "$77,087 – $116,390 per year",
+        image: "https://ui-avatars.com/api/?name=Health+New+Zealand&background=random&color=fff&size=128&bold=true",
+        description: `Radiation Therapist - Opportunities Across Aotearoa (New Zealand)
+
+Join Health New Zealand | Te Whatu Ora and help deliver precise, life-saving cancer treatment. We are welcoming qualified Radiation Therapists who want to make a meaningful difference while enjoying the incredible lifestyle NZ has to offer.
+
+The Opportunity:
+Work in modern facilities with advanced technology throughout New Zealand's regional cancer centres. You'll contribute to patient-centred care at every stage, rotating through modalities and working within supportive multidisciplinary teams.
+
+Key Areas of Practice:
+- Treatment planning and simulation.
+- 3D conformal and IMRT/VMAT delivery.
+- Image-guided radiation therapy (IGRT).
+- Stereotactic body radiation therapy (SBRT) and Brachytherapy.
+- Patient education and support.
+
+What We Offer:
+- Base Salary: NZD $77,087 – $116,390 (10-step progression).
+- Penal rates, on-call, and higher duties allowances.
+- Reimbursement of professional registration and APC.
+- 4 weeks annual leave + 10 days sick leave + 12 public holidays.
+- 14 weeks paid parental leave.
+- Paid CPD leave and professional development funding.
+- Free support from our Health Immigration Service for relocation.
+
+Visa & Immigration:
+Radiation Therapists are on Tier 1 of New Zealand's Green List. This means you can apply for a **Straight to Residence Visa** even before you arrive in the country.
+
+Requirements:
+- Must be registered with the Medical Radiation Technologists Board (MRTB).
+- Hold a current Annual Practising Certificate (APC).
+- Compassion, clinical skill, and high attention to detail.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.careerjet.co.nz/jobad/nzebd92f968f82145550929dfab1d2c77a"
+    },
+    {
+        id: 32,
+        slug: "ict-project-manager-right-track-technologies-auckland",
+        title: "ICT Project Manager",
+        company: "Right Track Technologies Limited",
+        location: "Favona, Auckland, New Zealand",
+        country: "new-zealand",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "$65.00 – $70.00 per hour",
+        image: "https://ui-avatars.com/api/?name=Right+Track+Technologies&background=random&color=fff&size=128&bold=true",
+        description: `ICT Project Manager - CMMI V3.0 Implementation Specialist
+
+Right Track Technologies is seeking highly skilled ICT Project Managers to support the implementation and measurement of organizational processes in accordance with CMMI Version 3.0 practices. This role is crucial for supporting enterprise governance and process maturity targets.
+
+Key Responsibilities:
+- Conduct organizational gap analysis aligned with CMMI V3.0 maturity practices.
+- Develop and maintain organizational process assets, SOPs, and governance artifacts.
+- Implement process performance measurement frameworks (PPBs, QPPOs, PPMs).
+- Facilitate internal process assessments and appraisal readiness checks.
+- Provide advisory support on Agile, SDLC, quality assurance, and DevSecOps practices.
+- Conduct training and awareness sessions for process institutionalization.
+
+What You'll Bring:
+- Bachelor's degree or higher in Computer Science, Software Engineering, or related field (Min 16 years of education).
+- Minimum 5 years of professional process improvement experience.
+- Experience providing CMMI V3.0 consultancy to at least one ICT company for Level-3.
+- Strong knowledge of maturity measurement systems and statistical process control.
+- Ability to develop metrics dashboards and audit evidence logs.
+
+Employment Highlights:
+- Rate: $65.00 – $70.00 per hour (Full-time, 30+ hours/week).
+- High Volume Accredited Employer (AEWV).
+- This role aligns with the NZ Green List for professional migration pathways.
+- 4 vacancies currently available.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1010000759597"
+    },
+    {
+        id: 33,
+        slug: "health-care-assistant-hca-norfolk-court-home-dargaville",
+        title: "Health Care Assistant (HCA)",
+        company: "Norfolk Court Home and Hospital",
+        location: "Dargaville, Northland, New Zealand",
+        country: "new-zealand",
+        type: "Full-time, Permanent",
+        industry: "Healthcare",
+        salary: "$26.16 – $28.28 per hour",
+        image: "https://ui-avatars.com/api/?name=Norfolk+Court+Home&background=random&color=fff&size=128&bold=true",
+        description: `Health Care Assistant (HCA) - Aged Care Excellence
+
+Norfolk Court Home and Hospital is dedicated to providing exceptional care to our elderly residents. We are looking for compassionate Health Care Assistants to join our team in Dargaville.
+
+Key Responsibilities:
+- Assisting elderly residents with activities of daily living (ADLs), including showering, feeding, and mobilization.
+- Monitoring and reporting observations to the Registered Nursing team.
+- Participating in and facilitating resident activities to promote well-being.
+- Providing emotional support and companionship to residents and their families.
+
+What You'll Bring:
+- At least 2 years of professional working experience in aged care OR.
+- Level 4 qualification in Health and Wellbeing (New Zealand standard).
+- A patient, people-centered disposition.
+- Strong communication and teamwork skills.
+
+What We Offer:
+- Competitive pay rate of $26.16 – $28.28 per hour.
+- Stable full-time hours (30 hours per week).
+- Modern work environment in beautiful Northland.
+- Support for professional development and training.
+- Visa sponsorship (AEWV / Green List) available for qualified international candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.co.nz/Job/new-zealand-healthcare-assistant-jobs-SRCH_IL.0,11_IN186_KO12,32.htm"
+    },
+    {
+        id: 34,
+        slug: "general-medicine-physician-health-new-zealand-taranaki",
+        title: "General Medicine Physician",
+        company: "Health New Zealand - Te Whatu Ora",
+        location: "New Plymouth, Taranaki, New Zealand",
+        country: "new-zealand",
+        type: "Full-time, Permanent",
+        industry: "Healthcare",
+        salary: "Competitive (NZ MECA)",
+        image: "https://ui-avatars.com/api/?name=Health+New+Zealand&background=random&color=fff&size=128&bold=true",
+        description: `General Medicine Physician - Taranaki Base Hospital
+
+Join our dedicated medical service at Taranaki Base Hospital. This role offers a balanced mix of inpatient ward-based care and acute medical assessment within our new, state-of-the-art Acute Assessment Unit (AAU).
+
+The Role:
+You will primarily work on the general medical ward with participation in a rotating weekday roster within the AAU. The role involves the assessment and treatment of medical patients with an expected stay of less than 36 hours, as well as outpatient and acute assessment clinics.
+
+The Team & Location:
+Work within a supportive, collegial team environment with strong links to tertiary centres. Taranaki offers a balanced lifestyle in one of NZ's most beautiful regions—base yourself where you can ski and surf in the same day. Enjoy iconic natural landscapes, a thriving café culture, and world-class surf breaks.
+
+What We Offer:
+- Competitive salary and benefits in line with the NZ MECA.
+- Comprehensive relocation assistance and immigration support.
+- Opportunities for ongoing professional development and teaching.
+- Modern facilities in the soon-to-be-opened East Wing building.
+
+Requirements:
+- Vocationally registered (or eligible for registration) with the Medical Council of New Zealand (MCNZ).
+- Fellowship with RACP or equivalent.
+- Excellent communication and teamwork skills.
+- Commitment to holistic and equitable patient care.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1009998748621"
+    },
+    {
+        id: 35,
+        slug: "psychologist-habit-health-hastings",
+        title: "Psychologist (Rehabilitation Specialist)",
+        company: "Habit Health",
+        location: "Hastings, Hawkes Bay, New Zealand",
+        country: "new-zealand",
+        type: "Full-time / Part-time",
+        industry: "Healthcare",
+        salary: "Competitive + Monthly Bonus",
+        image: "https://ui-avatars.com/api/?name=Habit+Health&background=random&color=fff&size=128&bold=true",
+        description: `Psychologist - Rehabilitation & Clinical Care
+
+Join Habit Health (Pacific Health Group) in Hastings as a Psychologist specializing in rehabilitation. We empower our teams to realize their full potential while enabling patients to live their best lives.
+
+Your Responsibilities:
+- Deliver assessments and clinical recommendations for rehabilitation patients.
+- Prepare high-quality written and verbal summaries of assessments.
+- Contribute to the development of clinical training and resource materials.
+- Collaborate within an expert multidisciplinary team (MDT).
+- Work across locations (travel required) and support ACC contracts.
+
+What We Offer:
+- Market competitive salary and a monthly bonus scheme.
+- Uncapped incentive program to boost your earnings.
+- Provision of **Heidi**, an AI medical scribe to automate documentation.
+- Relocation assistance and contribution towards moving costs to Hastings.
+- Annual budget for professional development and clinical supervision.
+- Well-being initiatives including EAP services and health checks.
+
+Requirements:
+- MA / PG Dip / DClin or similar psychology qualification.
+- Registration with the New Zealand Psychologists’ Board (current APC).
+- Eligibility for ACC contract registration.
+- Approachability and a people-centered disposition.
+
+For Overseas Applicants:
+- Accredited Employer support for the **AEWV** visa process.
+- Support for gaining registration with the NZ Psychologists Board.
+- Help with settling in New Zealand and relocation contributions.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1010000194536"
     }
 ];
