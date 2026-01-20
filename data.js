@@ -3806,5 +3806,54 @@ Visa sponsorship (H-1B or permanent residency) may be considered for well-qualif
         visaSponsorship: true,
         publishedDate: "Jan 20, 2026",
         externalUrl: "https://www.indeed.com/viewjob?jk=e62546b93b8e0c5f"
+    },
+    {
+        id: 110,
+        slug: "cropping-farm-hand-a-w-lyneham-and-son-australia",
+        title: "Cropping Farm Hand – Key Full-Time Role",
+        company: "A W Lyneham & Son",
+        location: "Popanyinning, Northam & Wheatbelt WA",
+        country: "australia",
+        type: "Full-time",
+        industry: "Farming",
+        image: "https://ui-avatars.com/api/?name=A+W+Lyneham+Son&background=random&color=fff&size=128&bold=true",
+        description: `About the business:
+Glenlevit Broadacre (A W Lyneham & Son) operates a modern 4,000-hectare broadacre farming business near Popanyinning, WA. We run a professional, well-maintained operation focused on doing things properly, with modern machinery, clear systems, and a straightforward working environment.
+
+The Role:
+We are seeking an experienced full-time employee to join our business in a key, trusted role. This position suits someone confident with modern machinery, capable of working independently, and who takes pride in doing the job properly.
+
+Key Responsibilities:
+- Seeding (utilising RTK guidance)
+- Spraying (self-propelled)
+- Harvesting (machinery operation and trucking)
+- General machinery operation, setup, servicing, and care
+- Minor sheep work (Merinos) — included but not a primary focus
+- Working independently and contributing as a reliable key operator
+
+Requirements:
+- Proven experience operating boom spray (preferably self-propelled), airseeder, and harvester
+- Strong mechanical awareness and care of machinery
+- Ability to work unsupervised and manage your own workload
+- Manual driver's licence (essential)
+- Reliable, practical, and safety-focused approach
+
+Highly Regarded:
+- Chemical handling accreditation (or willingness to obtain)
+- MC licence (or willingness to obtain)
+
+What's on Offer:
+- Full-time, secure position
+- Highly competitive pay: $100,000–$120,000+ per year
+- Modern, well-maintained machinery
+- Visa sponsorship available for the right candidate
+- Work vehicle: LandCruiser work ute provided
+- Accommodation assistance: Actively assist with short-term housing till new build is ready.
+
+Apply via SEEK with a current resume and cover letter.
+Phone enquiries welcome: Steve — 0428 875 001.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 21, 2026",
+        externalUrl: "https://www.seek.com.au/job/89818449?ref=search-standalone&type=promoted&origin=showNewTab#sol=69dee7b88443329d2a2b01b6e05380475dfa0a08"
     }
 ];
