@@ -121,6 +121,11 @@ async function fetchAllJobs() {
     }
 
     // Continue with rendering (using either API or local data)
+    // Sort jobsData by ID descending to show newest first
+    if (jobsData && jobsData.length > 0) {
+        jobsData.sort((a, b) => b.id - a.id);
+    }
+
     if (document.getElementById('jobsGrid')) {
         renderJobs(jobsData.slice(0, 6), 'jobsGrid');
         updateJobCounts();
@@ -282,6 +287,26 @@ document.querySelectorAll('.country-tab').forEach(tab => {
             ? jobsData
             : jobsData.filter(j => j.country === country);
 
+        // Update Header Text Dynamically
+        const oppTitle = document.getElementById('oppTitle');
+        const oppSubtitle = document.getElementById('oppSubtitle');
+        if (oppTitle && oppSubtitle) {
+            if (country && country !== 'all') {
+                const countryDisplay = {
+                    'usa': 'United States',
+                    'uk': 'United Kingdom',
+                    'uae': 'United Arab Emirates',
+                    'new-zealand': 'New Zealand',
+                    'south-korea': 'South Korea'
+                };
+                const countryName = countryDisplay[country] || country.charAt(0).toUpperCase() + country.slice(1).replace(/-/g, ' ');
+                oppTitle.textContent = `Find Visa Sponsorship Jobs in ${countryName}`;
+            } else {
+                oppTitle.textContent = 'Latest Opportunities';
+            }
+            oppSubtitle.textContent = 'Explore opportunities across New Zealand, Australia, Canada, and the United States,';
+        }
+
         renderJobs(filtered.slice(0, 6), 'jobsGrid');
     });
 });
@@ -376,6 +401,26 @@ function filterAndRenderJobs() {
     const keyword = document.getElementById('searchInput') ? document.getElementById('searchInput').value.toLowerCase() : '';
     const location = document.getElementById('locationFilter') ? document.getElementById('locationFilter').value : '';
     const industry = document.getElementById('industryFilter') ? document.getElementById('industryFilter').value.toLowerCase() : '';
+
+    // Update Header Text Dynamically
+    const pageTitle = document.getElementById('pageTitle');
+    const pageSubtitle = document.getElementById('pageSubtitle');
+    if (pageTitle && pageSubtitle) {
+        if (location && location !== '' && location !== 'all') {
+            const countryDisplay = {
+                'usa': 'United States',
+                'uk': 'United Kingdom',
+                'uae': 'United Arab Emirates',
+                'new-zealand': 'New Zealand',
+                'south-korea': 'South Korea'
+            };
+            const countryName = countryDisplay[location] || location.charAt(0).toUpperCase() + location.slice(1).replace(/-/g, ' ');
+            pageTitle.textContent = `Find Visa Sponsorship Jobs in ${countryName}`;
+        } else {
+            pageTitle.textContent = 'Browse All Jobs';
+        }
+        pageSubtitle.textContent = 'Explore opportunities across New Zealand, Australia, Canada, and the United States,';
+    }
 
     let results = jobsData;
 

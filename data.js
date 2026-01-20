@@ -1902,5 +1902,1909 @@ Requirements:
         visaSponsorship: true,
         publishedDate: "Jan 18, 2026",
         externalUrl: "https://www.careerjet.ca/jobad/cae763b4f1240829bc85a2541606d14008"
+    },
+    {
+        id: 52,
+        slug: "head-of-machine-learning-photoroom-dublin",
+        title: "Head of Machine Learning",
+        company: "Photoroom",
+        location: "Dublin, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Stock Options",
+        image: "https://ui-avatars.com/api/?name=Photoroom&background=random&color=fff&size=128&bold=true",
+        description: `Head of Machine Learning at Photoroom
+
+About Us
+Photoroom launched in 2020 after being accepted into Y Combinator and has become the world's most popular AI photo editor over the past four years. Our goal is to create the technology allowing anyone create studio-level product images in minutes.
+
+We're a profitable, remote-friendly company that has raised Series B funding and aims for 40% year-over-year growth.
+
+The Role:
+We're looking for a Head of Machine Learning to lead our world-class ML team through an ambitious growth phase. You'll drive our long-term technical vision, make bold strategic bets, and push the boundaries of what's possible in AI photo editing.
+
+You'll own:
+- Long-term ML strategy, including training foundational models from scratch.
+- Team leadership - scaling our exceptional team while maintaining culture and excellence.
+- Technical excellence - code review, performance optimisation, and troubleshooting.
+- Talent attraction - building the industry's most compelling CV team.
+
+About You:
+- 5+ years leading ML/AI teams at product companies.
+- Deep Computer Vision + Diffusion/GenAI expertise.
+- Foundational model training experience (billion+ parameters).
+- Team scaling experience.
+
+Benefits:
+- Competitive salary + stock options.
+- Remote-friendly within a 3-hour flight from Paris.
+- Relocation support up to €10k + visa sponsorship for France-based positions.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://jobs.ashbyhq.com/photoroom/085eaa32-44fe-4928-8826-b48873823bfd/application?utm_source=z5jE79dxa6"
+    },
+    {
+        id: 53,
+        slug: "m-and-a-associate-spencer-lennox-dublin",
+        title: "M&A Associate (2-4 PQE)",
+        company: "Spencer Lennox",
+        location: "Dublin, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Legal",
+        salary: "€90,000 - €115,000 per year",
+        image: "https://ui-avatars.com/api/?name=Spencer+Lennox&background=random&color=fff&size=128&bold=true",
+        description: `M&A Associate (2-4 PQE) - Spencer Lennox
+
+This is an excellent opportunity for an ambitious Corporate M&A solicitor to join a progressive, mid-market corporate law firm delivering high-quality transactional work in a sustainable and people-focused environment.
+
+Responsibilities:
+- Advise on a broad range of private M&A transactions.
+- Draft and negotiate core transaction documents.
+- Take a substantive role on multiple live transactions.
+- Actively use AI-enabled legal tools.
+
+Why Join This Team?
+- A growing corporate law team with strong private M&A focus.
+- Sustainable working culture.
+- Market-leading salary (€90k–€115k) + 20–30% bonus.
+- Flexible hybrid working.
+
+Candidate Profile:
+- 3–4 years’ PQE as an M&A solicitor (2-5 PQE considered).
+- Visa sponsorship can be supported where required for candidates with relevant experience.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://ie.linkedin.com/jobs/view/m-a-associate-2-4-pqe-at-spencer-lennox-4363840239"
+    },
+    {
+        id: 54,
+        slug: "staff-physical-implementation-eng-qualcomm-cork",
+        title: "Staff Physical Implementation Eng (Low Power)",
+        company: "Qualcomm",
+        location: "Cork, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Engineering",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Qualcomm&background=random&color=fff&size=128&bold=true",
+        description: `Staff Physical Implementation Eng (Low Power) - Qualcomm
+
+The Graphics team is looking for an Experienced Engineer to work on QUALCOMMs Adreno Graphics cores in the area of Low Power implementation and methodology.
+
+Responsibilities:
+- Drive best in class GPU cores optimized for performance, power, and area.
+- Focus on power estimation, implementation, verification, and minimization.
+- Develop methodologies for power reduction (clock gating, multi-VT, etc.).
+
+Minimum Skills:
+- Bachelor's degree in Engineering or related field.
+- Experience in Power Minimization techniques.
+
+What's on Offer:
+- Salary, stock, and performance-related bonus.
+- Relocation and immigration support (if needed).
+- Subsidised memberships and education assistance.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.ie/partner/jobListing.htm?jobListingId=1010000758313"
+    },
+    {
+        id: 55,
+        slug: "staff-cad-engineer-step-qualcomm-cork",
+        title: "Staff CAD Engineer (Silicon)",
+        company: "Qualcomm",
+        location: "Cork, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Engineering",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Qualcomm&background=random&color=fff&size=128&bold=true",
+        description: `Staff CAD Engineer (Silicon) - Qualcomm
+
+As a member of the Graphics team, the successful applicant will help develop new flows/methodologies and algorithms to improve power, performance and area (PPA) on state-of-the-art GPU cores.
+
+Key Responsibilities:
+- Develop methodologies for PPA improvement.
+- Work with EDA tools such as Synopsys Fusion Compiler, PrimePower, etc.
+- Scripting in Python, Perl, or TCL.
+- Collaborate with multiple functional teams to direct PPA improvements.
+
+Qualifications:
+- Bachelor's or Master's in Computer Engineering/Science.
+- 5-7 years of experience developing methodologies for PPA.
+
+What's on Offer:
+- Competitive salary and stock options.
+- Relocation and immigration support (if needed).
+- Comprehensive benefits package.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.ie/partner/jobListing.htm?jobListingId=1010000758297"
+    },
+    {
+        id: 56,
+        slug: "teach-english-overseas-english-1-monaghan",
+        title: "Teach English Overseas with Full Training",
+        company: "English 1",
+        location: "Monaghan, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Education",
+        salary: "Competitive + Flight Allowance",
+        image: "https://ui-avatars.com/api/?name=English+1&background=random&color=fff&size=128&bold=true",
+        description: `Teach English Overseas - Full Training & Visa Sponsorship
+
+English 1 is recruiting entry-level English teachers to teach English in China. This role is designed specifically for first-time teachers, graduates, and professionals.
+
+What you'll do:
+- Teach English to young learners aged 3–16.
+- Deliver high-energy lessons using award-winning curriculum.
+
+What you’ll get:
+- Competitive salary + performance bonus.
+- **Sponsored legal Z work visa**.
+- Flight allowance and international health insurance.
+- Up to 2 weeks sponsored hotel stay.
+
+Who we’re looking for:
+- Bachelor’s degree (in any subject).
+- ESL certification (TEFL, TESOL, CELTA) is a plus - we can sponsor.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://ie.linkedin.com/jobs/view/hiring-for-2026%21teach-english-overseas-with-full-training-visa-sponsorship-career-support-at-english-1-4362743086"
+    },
+    {
+        id: 57,
+        slug: "workforce-analyst-redfaire-limerick",
+        title: "Workforce Analyst",
+        company: "Redfaire",
+        location: "Limerick, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Redfaire&background=random&color=fff&size=128&bold=true",
+        description: `Workforce Analyst - Redfaire
+
+Redfaire is a growing, international technology company. The Workforce Analyst is a busy and varied role supporting our delivery teams with a primary focus on consultant resource allocation.
+
+Responsibilities:
+- Allocate resources to projects based on scope and skillsets.
+- Match consultant availability with project demands.
+- Maintain accurate data within the resource management system.
+- Work closely with Resource and Project managers.
+
+Qualifications:
+- Bachelor’s degree in Business or related discipline.
+- 2–4 years’ experience in scheduling or workforce planning.
+- High level of attention to detail and ability to work on multiple tasks.
+
+Note: The successful candidate will require full right to work in Ireland.`,
+        visaSponsorship: false,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1009997703736"
+    },
+    {
+        id: 58,
+        slug: "tax-risk-controversy-senior-associate-pwc-dublin",
+        title: "Tax Risk & Controversy Senior Associate",
+        company: "PwC",
+        location: "Dublin, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Accounting",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Pwc&background=random&color=fff&size=128&bold=true",
+        description: `Tax Risk & Controversy Senior Associate - PwC
+
+As a Senior Associate in the Tax Risk & Controversy team, you’ll work as part of a team helping our clients navigate through Revenue interventions and manage their tax risk.
+
+Responsibilities:
+- Managing the Revenue intervention process.
+- Carrying out pre-audit testing and reviews.
+- Assisting in the preparation of Qualifying Disclosures.
+- Advising clients on their rights and Revenue powers.
+
+About you:
+- 3+ years tax experience.
+- Tax or Accountancy qualification.
+- Business Acumen and Relationship management skills.
+
+Benefits:
+- Competitive compensation package.
+- Flexible working programs.
+- **Available for Work Visa Sponsorship? Yes**`,
+        visaSponsorship: true,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1009997906314"
+    },
+    {
+        id: 59,
+        slug: "graphics-developer-tools-engineer-qualcomm-cork",
+        title: "Graphics Developer Tools Engineer, Staff",
+        company: "Qualcomm",
+        location: "Cork, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Engineering",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Qualcomm&background=random&color=fff&size=128&bold=true",
+        description: `Graphics Developer Tools Engineer - Qualcomm
+
+The Qualcomm Adreno GPU Software team is looking for talented engineers to work on next generation GPU Developer Tools.
+
+Responsibilities:
+- Design and develop profiling and performance analysis tools.
+- Collaborate with GPU hardware and software teams.
+- Debug issues and optimize for the user experience.
+
+Qualifications:
+- 5+ years of professional experience.
+- Programming knowledge in C/C++, C#, Rust, or Go.
+- Knowledge of GPU hardware and graphics concepts.
+
+What's on Offer:
+- Salary, stock, and performance related bonus.
+- Relocation and immigration support (if needed).`,
+        visaSponsorship: true,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1009997613666"
+    },
+    {
+        id: 60,
+        slug: "operations-customer-expert-wts-portugal-cork",
+        title: "Operations Customer Expert (English Market) - Relocation to Lisbon",
+        company: "WTS Portugal",
+        location: "Cork, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Customer Service",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=WTS+Portugal&background=random&color=fff&size=128&bold=true",
+        description: `Operations Customer Expert - Relocation to Lisbon
+
+We are recruiting on behalf of a leading international digital bank. This role offers the chance to build an international career while living in Lisbon.
+
+Your Role:
+- Handle customer enquiries via chat, phone, and email.
+- Support fraud investigations and complaints.
+- Identify and assist vulnerable customers.
+
+What We Offer:
+- Competitive salary package and performance-based bonus.
+- **Relocation Package:** Accommodation, full support, annual flight.
+- Administrative and legal support (visa, documentation).
+
+Requirements:
+- C1/C2 level of English.
+- Minimum 12 months experience in Customer Service/Banking in Ireland.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 12, 2026",
+        externalUrl: "https://www.glassdoor.ie/partner/jobListing.htm?jobListingId=1009994756669"
+    },
+    {
+        id: 61,
+        slug: "operations-customer-expert-wts-portugal-dublin",
+        title: "Operations Customer Expert (English Market) - Relocation to Lisbon",
+        company: "WTS Portugal",
+        location: "Dublin, Ireland",
+        country: "ireland",
+        type: "Full-time",
+        industry: "Customer Service",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=WTS+Portugal&background=random&color=fff&size=128&bold=true",
+        description: `Operations Customer Expert - Relocation to Lisbon
+
+We are recruiting on behalf of a leading international digital bank. This role offers the chance to build an international career while living in Lisbon.
+
+Your Role:
+- Handle customer enquiries via chat, phone, and email.
+- Support fraud investigations and complaints.
+- Identify and assist vulnerable customers.
+
+What We Offer:
+- Competitive salary package and performance-based bonus.
+- **Relocation Package:** Accommodation, full support, annual flight.
+- Administrative and legal support (visa, documentation).
+
+Requirements:
+- C1/C2 level of English.
+- Minimum 12 months experience in Customer Service/Banking in Ireland.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 12, 2026",
+        externalUrl: "https://www.glassdoor.ie/partner/jobListing.htm?jobListingId=1009994757462"
+    },
+    {
+        id: 62,
+        slug: "data-protection-security-manager-n26-berlin",
+        title: "Data Protection and Security Manager",
+        company: "N26",
+        location: "Berlin, Germany",
+        country: "germany",
+        type: "Full-time",
+        industry: "Other",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=N26&background=random&color=fff&size=128&bold=true",
+        description: `Data Protection and Security Manager - N26 Berlin
+
+About the opportunity:
+We are looking for an experienced Data Protection & Security Manager to join the Data Protection & Governance team within the CISO Office. You will ensure N26 meets its data protection obligations and strengthen how data protection requirements are embedded in day-to-day operations.
+
+Responsibilities:
+- Design, maintain and improve the data protection risk management framework.
+- Maintain the Data Protection Controls Effectiveness Testing and Evaluation Procedure.
+- Manage the DPO mailbox and coordinate responses to queries.
+- Support the Data Protection General Training & Awareness program.
+- Monitor regulatory developments (e.g. EU AI Act) and emerging privacy risks.
+
+What you need to be successful:
+- Bachelor's degree in Law, InfoSec, IT, or related field preferred.
+- Professional privacy certifications (IAPP CIPP/E / CIPM) or security certifications (CISA / CISM).
+- 3–5 years of experience in data protection / privacy risk management.
+- Experience with third-party / outsourcing privacy topics.
+- Fluency in English (German is a plus).
+
+What's in it for you:
+- Competitive personal development budget and work from home budget.
+- Premium subscription on your personal N26 bank account.
+- **Relocation package with visa support** for those who need it.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.de/partner/jobListing.htm?jobListingId=1010000507201"
+    },
+    {
+        id: 63,
+        slug: "b2b-sales-operations-internship-trivago-duesseldorf",
+        title: "B2B Sales Operations Internship",
+        company: "trivago N.V.",
+        location: "Düsseldorf, Germany",
+        country: "germany",
+        type: "Internship (6 months)",
+        industry: "Sales",
+        salary: "Paid Internship + Benefits",
+        image: "https://ui-avatars.com/api/?name=trivago&background=random&color=fff&size=128&bold=true",
+        description: `B2B Sales Operations Internship - trivago
+
+The trivago B2B Independent Hotels team has an exciting opportunity for a full-time, 6-month intern interested in boosting their sales operational skills!
+
+How you'll make an impact:
+- Support training and onboarding of the sales team.
+- Support internal and external sales teams with operational tasks.
+- Prepare sales reports to track key performance metrics.
+
+What you'll need to thrive:
+- Studying business administration, marketing or similar.
+- Good analytical skills (Excel).
+- Detail-oriented with strong organizational skills.
+- Fluent English.
+
+What you can look forward to:
+- Personalized coaching and workshops.
+- **Visa support** from our talent support team.
+- Relocation reimbursement and free language classes.
+- Paid vacation days, flexible hours, and remote work options.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.jobsinlisbon.com/jobs/b2b-sales-operations-internship/69201dfb92274d06f7a3064985e7adf1?subid=jobsinlisbon"
+    },
+    {
+        id: 64,
+        slug: "internal-auditor-trivago-duesseldorf",
+        title: "Internal Auditor",
+        company: "trivago N.V.",
+        location: "Düsseldorf, Germany",
+        country: "germany",
+        type: "Full-time",
+        industry: "Accounting",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=trivago&background=random&color=fff&size=128&bold=true",
+        description: `Internal Auditor - trivago
+
+We are looking for a meticulous Internal Auditor to ensure compliance with internal and external regulations.
+
+How you'll make an impact:
+- Evaluate internal controls and conduct audits (business & IT).
+- Analyze data risks and processes to detect discrepancies.
+- Prepare and present audit reports to senior leadership.
+- Monitor regulatory changes and update audit processes.
+
+What you'll need to thrive:
+- Bachelor's degree in accounting, finance or related field.
+- 5+ years experience in internal auditing (SOX experience preferred).
+- Solid analytical and problem-solving skills.
+- Fluency in English.
+
+What you can look forward to:
+- **Visa support** and relocation package.
+- Interest-free newcomer loan and free language classes.
+- Flexible working hours and remote work options.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.jobsinlisbon.com/jobs/internal-auditor/8bd6d1ded9e3c93a4362bdc695e4d03a?subid=jobsinlisbon"
+    },
+    {
+        id: 65,
+        slug: "founding-engineer-clera-berlin",
+        title: "Founding Engineer (Visa Sponsored)",
+        company: "Clera",
+        location: "Berlin, Germany (Relocation to SF)",
+        country: "germany",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Equity",
+        image: "https://ui-avatars.com/api/?name=Clera&background=random&color=fff&size=128&bold=true",
+        description: `Founding Engineer – Join our German team in SF (Visa sponsored)
+
+We’re a German founding team that just raised a $3M pre-seed round. We’re looking for a Founding Engineer from the DACH region to join us in our San Francisco Hackerhouse.
+
+The Role:
+- Work directly with the CTO to automate the headhunting process.
+- Ship features to production daily.
+- Build a fully agentic system.
+
+Your Experience:
+- Strong software engineering background (TypeScript, React).
+- Practical experience with AI (LLM APIs).
+- Startup mindset - high agency and resourceful.
+
+Perks:
+- **Visa sponsorship** and flight coverage.
+- Live & build with a small founding team in SF.
+- Zero commute, 10x feedback loops.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.glassdoor.de/partner/jobListing.htm?jobListingId=1010001725001"
+    },
+    {
+        id: 66,
+        slug: "founding-engineer-clera-hamburg",
+        title: "Founding Engineer (Visa Sponsored)",
+        company: "Clera",
+        location: "Hamburg, Germany (Relocation to SF)",
+        country: "germany",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Equity",
+        image: "https://ui-avatars.com/api/?name=Clera&background=random&color=fff&size=128&bold=true",
+        description: `Founding Engineer – Join our German team in SF (Visa sponsored)
+
+We’re a German founding team that just raised a $3M pre-seed round. We’re looking for a Founding Engineer from the DACH region to join us in our San Francisco Hackerhouse.
+
+The Role:
+- Work directly with the CTO to automate the headhunting process.
+- Ship features to production daily.
+- Build a fully agentic system.
+
+Your Experience:
+- Strong software engineering background (TypeScript, React).
+- Practical experience with AI (LLM APIs).
+- Startup mindset - high agency and resourceful.
+
+Perks:
+- **Visa sponsorship** and flight coverage.
+- Live & build with a small founding team in SF.
+- Zero commute, 10x feedback loops.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.glassdoor.de/partner/jobListing.htm?jobListingId=1010001724998"
+    },
+    {
+        id: 67,
+        slug: "founding-engineer-clera-karlsruhe",
+        title: "Founding Engineer (Visa Sponsored)",
+        company: "Clera",
+        location: "Karlsruhe, Germany (Relocation to SF)",
+        country: "germany",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Equity",
+        image: "https://ui-avatars.com/api/?name=Clera&background=random&color=fff&size=128&bold=true",
+        description: `Founding Engineer – Join our German team in SF (Visa sponsored)
+
+We’re a German founding team that just raised a $3M pre-seed round. We’re looking for a Founding Engineer from the DACH region to join us in our San Francisco Hackerhouse.
+
+The Role:
+- Work directly with the CTO to automate the headhunting process.
+- Ship features to production daily.
+- Build a fully agentic system.
+
+Your Experience:
+- Strong software engineering background (TypeScript, React).
+- Practical experience with AI (LLM APIs).
+- Startup mindset - high agency and resourceful.
+
+Perks:
+- **Visa sponsorship** and flight coverage.
+- Live & build with a small founding team in SF.
+- Zero commute, 10x feedback loops.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.glassdoor.de/partner/jobListing.htm?jobListingId=1010001724997"
+    },
+    {
+        id: 68,
+        slug: "spanish-teacher-berlin-metropolitan-school",
+        title: "Spanish Teacher with German or French",
+        company: "Berlin Metropolitan School",
+        location: "Berlin, Germany",
+        country: "germany",
+        type: "Full-time / Part-time",
+        industry: "Education",
+        salary: "Competitive + Benefits",
+        image: "https://ui-avatars.com/api/?name=Berlin+Metropolitan+School&background=random&color=fff&size=128&bold=true",
+        description: `Spanish Teacher with German or French - Berlin Metropolitan School
+
+We are looking for an adaptable and inspiring Language Teacher for Spanish with German or French to support our Secondary School team.
+
+What you will do:
+- Differentiate Spanish (and German or French) lessons.
+- Demonstrate commitment to making lessons enjoyable and stimulating.
+- Support and promote the school and IB mission statements.
+
+Requirements:
+- Bachelors or Master's degree in Secondary Education with teaching qualification for Spanish and German/French.
+- At least two years teaching experience (IB School preferred).
+- Experience in using technology to enrich learning.
+
+Your Benefits:
+- Attractive **relocation package** (visa support, settling-in allowance, housing assistance) for international hires.
+- Modern workplace in the heart of Berlin.
+- Monthly benefits card and weekly health offerings.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.glassdoor.de/partner/jobListing.htm?jobListingId=1010000838118"
+    },
+    {
+        id: 69,
+        slug: "assistant-professor-environmental-geography-vu-amsterdam",
+        title: "Assistant Professor Environmental Geography",
+        company: "Vrije Universiteit Amsterdam",
+        location: "Amsterdam, Netherlands",
+        country: "netherlands",
+        type: "Full-time",
+        industry: "Education",
+        salary: "€4,728 - €6,433 per month",
+        image: "https://ui-avatars.com/api/?name=VU+Amsterdam&background=random&color=fff&size=128&bold=true",
+        description: `Assistant Professor Environmental Geography and Land Use - VU Amsterdam
+
+As part of the Environmental Geography staff, your research and teaching will use spatial data and modelling to explore alternative futures of land use.
+
+Your Duties:
+- Develop innovative research using spatial analysis and modelling.
+- Teach in Environmental Science courses.
+- Supervise Master's and Bachelor's theses.
+- Collaborate on acquiring external funds for PhD and postdoc projects.
+
+Your Profile:
+- PhD in geography, GIS, spatial statistics, or related discipline.
+- Experience with quantitative spatial research and land use change analysis.
+- Affinity with interdisciplinary methods and academic teaching.
+
+What We Offer:
+- Gross monthly salary of €4,728 - €6,433.
+- Career track position (tenure possibilities).
+- **Relocation assistance** and potential 30% tax ruling for international candidates.
+- 41 days of annual leave and holiday allowance.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.glassdoor.nl/partner/jobListing.htm?jobListingId=1010001404728"
+    },
+    {
+        id: 70,
+        slug: "summer-school-teaching-staff-wittenborg-apeldoorn",
+        title: "Summer School Teaching Staff (Erasmus+)",
+        company: "Wittenborg University of Applied Sciences",
+        location: "Apeldoorn, Netherlands",
+        country: "netherlands",
+        type: "Part-time / Temporary",
+        industry: "Education",
+        salary: "€125 - €1,400 per week",
+        image: "https://ui-avatars.com/api/?name=Wittenborg&background=random&color=fff&size=128&bold=true",
+        description: `Summer School Teaching Staff - Erasmus+ Staff Mobility
+
+We are looking for enthusiastic lecturers in Intercultural Communications, Branding, Marketing, and Leadership to teach in our Summer School programme.
+
+Roles:
+- Teach short courses in July/August 2026 (5 days, 15 hours).
+- Topics: Intercultural Communication & Leadership, Marketing & Branding, Global Leadership & AI.
+
+Requirements:
+- Minimum 1 year of teaching experience at an HEI.
+- Master's degree or equivalent.
+- Track record of training & interactive workshop delivery.
+
+Features:
+- **Visa Support:** Acceptance letter provided for non-EU applicants.
+- Accommodation packages available.
+- Opportunity to explore the Netherlands.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.wittenborg.eu/summer-school-teaching-staff-erasmus-staff-mobility.htm"
+    },
+    {
+        id: 71,
+        slug: "phd-nanoscale-rock-magnetism-utrecht-university",
+        title: "PhD in Nanoscale Rock Magnetism",
+        company: "Universiteit Utrecht",
+        location: "Utrecht, Netherlands",
+        country: "netherlands",
+        type: "Full-time (PhD)",
+        industry: "Research",
+        salary: "€3,059 - €3,881 per month",
+        image: "https://ui-avatars.com/api/?name=Utrecht+University&background=random&color=fff&size=128&bold=true",
+        description: `PhD Position in Nanoscale Rock Magnetism and Magnetic Imaging
+
+Join the ERC Consolidator project SPARK to unlock magnetic information stored in nanoscale vortex-state particles.
+
+Your Job:
+- Acquire nanoscale magnetic measurements using Quantum Scanning Microscopy.
+- Characterize particle geometry using FIB-SEM.
+- Work with extensive computing infrastructure for modelling.
+
+Requirements:
+- MSc in Earth Sciences or related discipline.
+- Background in paleomagnetism, mineralogy, or petrography.
+- Proficiency in English.
+
+Offer:
+- 4-year PhD position.
+- Gross monthly salary €3,059 - €3,881.
+- **Visa sponsorship** (Highly Skilled Migrant / Blue Card).`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.glassdoor.nl/partner/jobListing.htm?jobListingId=1010001404724"
+    },
+    {
+        id: 72,
+        slug: "postdoc-micromagnetic-modelling-utrecht-university",
+        title: "Postdoctoral Researcher (Data-Driven Modelling)",
+        company: "Universiteit Utrecht",
+        location: "Utrecht, Netherlands",
+        country: "netherlands",
+        type: "Full-time (Postdoc)",
+        industry: "Research",
+        salary: "€3,546 - €5,538 per month",
+        image: "https://ui-avatars.com/api/?name=Utrecht+University&background=random&color=fff&size=128&bold=true",
+        description: `Postdoctoral Researcher in Data-Driven Micromagnetic Modelling
+
+This position contributes to SPARK, unlocking magnetic information in geological materials.
+
+Your Job:
+- Develop computational tools to bridge magnetic observations and micromagnetic simulations.
+- Extend MERRILL code with data-driven workflows.
+- Publish scientific findings and tools.
+
+Requirements:
+- PhD in Earth Sciences, Physics, Mathematics, or related field.
+- Strong background in computational modelling (micromagnetic modelling preferred).
+- Experience with FAIR science principles.
+
+Offer:
+- 2-year position.
+- Gross monthly salary €3,546 - €5,538.
+- **Visa sponsorship** (Highly Skilled Migrant / Blue Card).`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.glassdoor.nl/partner/jobListing.htm?jobListingId=1010001404729"
+    },
+    {
+        id: 73,
+        slug: "qrm-onboarding-specialist-itsync-utrecht",
+        title: "QRM Onboarding Specialist",
+        company: "ITSync (Rabobank)",
+        location: "Utrecht, Netherlands",
+        country: "netherlands",
+        type: "Full-time",
+        industry: "Finance",
+        salary: "€5,381 - €7,687 per month",
+        image: "https://ui-avatars.com/api/?name=ITSync&background=random&color=fff&size=128&bold=true",
+        description: `QRM Onboarding Specialist
+
+Contribute to calculations and reporting on Interest Rate and Liquidity Risk for Rabobank's 600bn+ balance sheet.
+
+Responsibilities:
+- Create data requirements for IT teams.
+- Perform in-depth testing and align cash flow profiles.
+- Align with main stakeholders (IT, Risk, Management).
+
+Requirements:
+- 5+ years of QRM experience.
+- Knowledge of financial market products.
+- Strong SQL skills.
+
+Offer:
+- 12-month contract with possibility of extension/internal employment.
+- Salary €5,381 - €7,687 gross per month.
+- **Relocation services** available for international candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.nl/partner/jobListing.htm?jobListingId=1010000683674"
+    },
+    {
+        id: 74,
+        slug: "head-of-machine-learning-photoroom-netherlands",
+        title: "Head of Machine Learning",
+        company: "Photoroom",
+        location: "Netherlands (Remote Friendly)",
+        country: "netherlands",
+        type: "Full-time",
+        industry: "Technology",
+        salary: "Competitive + Stock Options",
+        image: "https://ui-avatars.com/api/?name=Photoroom&background=random&color=fff&size=128&bold=true",
+        description: `Head of Machine Learning - Photoroom
+
+Lead our world-class ML team to create technology allowing anyone to create studio-level product images in minutes.
+
+Role:
+- Own long-term ML strategy and training foundational models.
+- Lead and scale the ML team.
+- Drive breakthrough innovation in AI photo editing.
+
+Requirements:
+- 5+ years leading ML/AI teams.
+- Deep Computer Vision + GenAI/Diffusion expertise.
+- Experience training billion+ parameter models.
+
+Offer:
+- Competitive salary + stock options.
+- Remote-friendly (within 3h flight from Paris).
+- **Relocation support** and visa sponsorship available.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://nl.linkedin.com/jobs/view/head-of-machine-learning-at-photoroom-4363555546"
+    },
+    {
+        id: 75,
+        slug: "business-analyst-a2g-consulting-amsterdam",
+        title: "Business Analyst",
+        company: "A2G Consulting BV",
+        location: "Amsterdam, Netherlands",
+        country: "netherlands",
+        type: "Contract (12 months)",
+        industry: "Consulting",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=A2G&background=random&color=fff&size=128&bold=true",
+        description: `Business Analyst - Amsterdam
+
+Seeking a highly skilled Business Analyst with expertise in Requirement Gathering Analysis.
+
+Responsibilities:
+- Elicit and document complex business needs.
+- Map business processes to system designs.
+- Create detailed technical specifications.
+
+Requirements:
+- 8+ years relevant experience.
+- Bachelor's or Master's Degree.
+
+Offer:
+- Competitive Gross Salary.
+- **Visa Sponsorship** for Candidate & Dependants.
+- 30% Tax Ruling application support.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://nl.linkedin.com/jobs/view/business-analyst-at-a2g-consulting-bv-a2g-technologies-4359272913"
+    },
+    {
+        id: 76,
+        slug: "postdoc-ub4h-learning-communities-tue-eindhoven",
+        title: "Postdoc UB4H: Learning Communities",
+        company: "Eindhoven University of Technology",
+        location: "Eindhoven, Netherlands",
+        country: "netherlands",
+        type: "Part-time (0.8 FTE)",
+        industry: "Education",
+        salary: "€4,241 - €5,538 per month",
+        image: "https://ui-avatars.com/api/?name=TU+Eindhoven&background=random&color=fff&size=128&bold=true",
+        description: `Postdoc UB4H: Learning and working in innovative hydrogen Brainport Learning communities
+
+Join United Brains 4 Hydrogen (UB4H) to accelerate the green hydrogen transition.
+
+Role:
+- Investigate integration of learning, working, and innovation.
+- Design and test methods for collaboration between education and industry.
+- Conduct qualitative and quantitative research.
+
+Requirements:
+- PhD in educational sciences or related discipline.
+- Expertise in learning and development processes.
+- Fluent in English.
+
+Offer:
+- 3-year position (0.8 FTE).
+- Salary €4,241 - €5,538 (Scale 10).
+- **Visa sponsorship** and relocation support available.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://www.glassdoor.nl/partner/jobListing.htm?jobListingId=1009998944317"
+    },
+    {
+        id: 77,
+        slug: "postdoc-ub4h-hydrogen-ecosystems-tue-eindhoven",
+        title: "Postdoc UB4H: Hydrogen Ecosystems",
+        company: "Eindhoven University of Technology",
+        location: "Eindhoven, Netherlands",
+        country: "netherlands",
+        type: "Part-time (0.8 FTE)",
+        industry: "Education",
+        salary: "€4,241 - €5,538 per month",
+        image: "https://ui-avatars.com/api/?name=TU+Eindhoven&background=random&color=fff&size=128&bold=true",
+        description: `Postdoc UB4H: Interconnecting and cooperation between hydrogen learning communities
+
+Focus on interconnecting learning communities across micro, meso, and macro levels.
+
+Role:
+- Develop governance models and cooperative strategies.
+- Conduct design-based research on ecosystem resilience.
+- Work with diverse stakeholders in the energy transition.
+
+Requirements:
+- PhD in Business Administration, Innovation Management, or Systems Engineering.
+- Strong background in ecosystems and governance.
+
+Offer:
+- 3-year position (0.8 FTE).
+- Salary €4,241 - €5,538 (Scale 10).
+- **Visa sponsorship** and relocation support available.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://www.glassdoor.nl/partner/jobListing.htm?jobListingId=1009998944307"
+    },
+    {
+        id: 78,
+        slug: "tender-manager-morrison-express-netherlands",
+        title: "Tender Manager - Europe",
+        company: "Morrison Express",
+        location: "Netherlands (Flexible in Europe)",
+        country: "netherlands",
+        type: "Full-time",
+        industry: "Logistics",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Morrison+Express&background=random&color=fff&size=128&bold=true",
+        description: `Tender Manager - Europe
+
+Lead our European tender activities and drive strategic growth through competitive bid submissions.
+
+Responsibilities:
+- Lead the European tender team.
+- Drive pricing strategy with key stakeholders.
+- Coordinate international inputs for competitive submissions.
+
+Requirements:
+- 5+ years in Freight Forwarding (regional tenders/pricing).
+- Fluent in English (German/Dutch a plus).
+- Analytical mind with a commercial edge.
+
+Offer:
+- Competitive package with health allowance and performance bonus.
+- **Work visa sponsorship** for highly qualified candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 14, 2026",
+        externalUrl: "https://www.morrisonexpress.com/careers"
+    },
+    {
+        id: 79,
+        slug: "business-analyst-dam-kwan-lisbon",
+        title: "Business Analyst (DAM)",
+        company: "Kwan",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=Kwan&background=random&color=fff&size=128&bold=true",
+        description: `Business Analyst (DAM) - Kwan
+
+We are looking for a Business Analyst with experience with DAM, to work in Lisbon or Braga.
+
+Responsibilities:
+- Analyze the organization and design its business processes and systems.
+- Evaluate the business model and its integration with technology.
+- Assess current state (AS-IS) and define future state (TO-BE).
+
+Requirements:
+- Strong ability to produce detailed documentation.
+- Intermediate proficiency in Digital Asset Management (DAM).
+- Proficiency in English (B2 or higher).
+
+Offer:
+- Competitive salary with benefits.
+- **Relocation package and visa sponsorship** for international hires.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.net-empregos.com/14868346/business-analyst-dam/"
+    },
+    {
+        id: 80,
+        slug: "senior-business-analyst-kwan-lisbon",
+        title: "Senior Business Analyst",
+        company: "Kwan",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=Kwan&background=random&color=fff&size=128&bold=true",
+        description: `Senior Business Analyst - Kwan
+
+We are looking for a Senior Business Analyst to work in Lisbon.
+
+Responsibilities:
+- Gather, analyze, and document Business, Operations, Regulatory, and Technical requirements.
+- Define, prioritize, and plan required actions or system enhancements.
+- Conduct testing activities and assess quality.
+
+Requirements:
+- Minimum 5 years of relevant experience.
+- Experience working within Corporate & Investment Banking.
+- Fluency in English.
+
+Offer:
+- Competitive salary with benefits.
+- **Relocation package and visa sponsorship** for international hires.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.careerjet.pt/jobad/ptb8374532f8891a838d2a61c2fcaf2605"
+    },
+    {
+        id: 81,
+        slug: "full-stack-gen-ai-engineer-kwan-lisbon",
+        title: "Full-Stack Generative AI Engineer",
+        company: "Kwan",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=Kwan&background=random&color=fff&size=128&bold=true",
+        description: `Full-Stack Generative AI Engineer - Kwan
+
+We are looking for a Full-Stack Generative AI Engineer to work in Lisbon.
+
+Responsibilities:
+- Build end-to-end Generative AI applications.
+- Integrate LLMs, RAG, and AI workflows.
+- Own delivery, quality, and outcomes end to end.
+
+Requirements:
+- 5+ years as a Software Engineer.
+- Strong experience with React / Next.js / TypeScript.
+- Experience or strong interest in GenAI / LLMs / RAG.
+
+Offer:
+- Competitive salary with benefits.
+- **Relocation package and visa sponsorship** for international hires.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.careerjet.pt/jobad/pt7a7cd44b9f1da18727669ad51545aa43"
+    },
+    {
+        id: 82,
+        slug: "backend-developer-net-kwan-braga",
+        title: "Backend Developer (.NET)",
+        company: "Kwan",
+        location: "Braga, Portugal",
+        country: "portugal",
+        type: "Full-time (Hybrid)",
+        industry: "Information Technology",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=Kwan&background=random&color=fff&size=128&bold=true",
+        description: `Backend Developer (.NET) - Kwan
+
+We are looking for a Backend Developer (.NET) to work hybrid in Braga, Lisbon, or Porto.
+
+Responsibilities:
+- Collaborate in the definition and evolution of solution architectures.
+- Design, develop, and maintain clean, reliable code.
+- Ensure quality through unit and integration testing.
+
+Requirements:
+- 4+ years experience with C# and .NET / .NET Core.
+- Solid background in Azure-based environments.
+- Fluent English & Portuguese.
+
+Offer:
+- Competitive salary with benefits.
+- **Relocation package and visa sponsorship** for international hires.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.careerjet.pt/jobad/ptde76e27bbb01c5ff1874db0aefe54158"
+    },
+    {
+        id: 83,
+        slug: "data-engineer-kwan-lisbon",
+        title: "Data Engineer",
+        company: "Kwan",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=Kwan&background=random&color=fff&size=128&bold=true",
+        description: `Data Engineer - Kwan
+
+We are looking for a Data Engineer with Azure to work in Lisbon or Porto.
+
+Responsibilities:
+- Design, build, and maintain scalable data platforms.
+- Develop and implement data processing workflows.
+- Collaborate with cross-functional teams.
+
+Requirements:
+- At least 4 years of experience.
+- Experience with Cloud platforms (Azure).
+- Proficiency in Python, Java, or Scala.
+
+Offer:
+- Competitive salary with benefits.
+- **Relocation package and visa sponsorship** for international hires.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 18, 2026",
+        externalUrl: "https://www.careerjet.pt/jobad/ptcd33b0cb4752194577246f12e3a2ca82"
+    },
+    {
+        id: 84,
+        slug: "senior-sap-functional-consultant-aubay-porto",
+        title: "Senior SAP Functional Consultant",
+        company: "Aubay",
+        location: "Porto, Portugal",
+        country: "portugal",
+        type: "Full-time (Hybrid)",
+        industry: "Information Technology",
+        salary: "Competitive",
+        image: "https://ui-avatars.com/api/?name=Aubay&background=random&color=fff&size=128&bold=true",
+        description: `Senior SAP Functional Consultant - Aubay
+
+We are looking for a Senior SAP Functional Consultant for our client in Porto.
+
+Responsibilities:
+- SAP CS or SAP PM expertise.
+- Service Management and Field Service processes.
+- Technical analysis and debugging.
+
+Requirements:
+- 3-7 years SAP Functional experience.
+- Proven expertise in SAP ECC 6.0.
+- Excellent English (C1).
+
+Offer:
+- **Work VISA support** for international candidates.
+- Health insurance and other benefits.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.careerjet.pt/jobad/pta0cd8b1081cb8b9040ed1e32e7fff258"
+    },
+    {
+        id: 85,
+        slug: "scala-ai-engineer-kwan-lisbon",
+        title: "Scala AI Engineer",
+        company: "Kwan",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=Kwan&background=random&color=fff&size=128&bold=true",
+        description: `Scala AI Engineer - Kwan
+
+We are looking for a Scala AI Engineer to work in Lisbon.
+
+Responsibilities:
+- Build and deploy AI solutions using NLP and statistical methods.
+- Design scalable AI services within microservices architectures.
+- Work with multilingual data.
+
+Requirements:
+- 3+ years experience as an Engineer.
+- Strong proficiency in Scala.
+- Solid understanding of AI techniques.
+
+Offer:
+- Competitive salary with benefits.
+- **Relocation package and visa sponsorship** for international hires.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.net-empregos.com/14864853/scala-ai-engineer/"
+    },
+    {
+        id: 86,
+        slug: "customer-support-gaming-lisbon",
+        title: "Customer Support (Gaming)",
+        company: "Gaming Support",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Customer Service",
+        salary: "€1,307 per month + Bonus",
+        image: "https://ui-avatars.com/api/?name=Gaming&background=random&color=fff&size=128&bold=true",
+        description: `Customer Support (Gaming) - Lisbon
+
+Passionate about gaming? Join a multilingual team supporting a global gaming brand.
+
+Responsibilities:
+- Provide customer support via phone and email.
+- Assist with account access, purchases, and technical inquiries.
+- troubleshoot hardware/software issues.
+
+Requirements:
+- Native/Fluent German and good English.
+- Interest in gaming.
+- EU citizenship or valid right to work.
+
+Offer:
+- Base salary €1,307 + Bonus.
+- **Relocation support** available for international candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.glassdoor.co.in/partner/jobListing.htm?jobListingId=1009999057882"
+    },
+    {
+        id: 87,
+        slug: "head-of-machine-learning-photoroom-lisbon",
+        title: "Head of Machine Learning",
+        company: "Photoroom",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Stock Options",
+        image: "https://ui-avatars.com/api/?name=Photoroom&background=random&color=fff&size=128&bold=true",
+        description: `Head of Machine Learning - Photoroom
+
+Lead our world-class ML team to create technology allowing anyone to create studio-level product images in minutes.
+
+Role:
+- Own long-term ML strategy and training foundational models.
+- Lead and scale the ML team.
+- Drive breakthrough innovation in AI photo editing.
+
+Requirements:
+- 5+ years leading ML/AI teams.
+- Deep Computer Vision + GenAI/Diffusion expertise.
+- Experience training billion+ parameter models.
+
+Offer:
+- Competitive salary + stock options.
+- Remote-friendly.
+- **Relocation support and visa sponsorship** available.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://pt.linkedin.com/jobs/view/head-of-machine-learning-at-photoroom-4363665525"
+    },
+    {
+        id: 88,
+        slug: "cybersecurity-engineer-kwan-lisbon",
+        title: "Cybersecurity Engineer",
+        company: "Kwan",
+        location: "Lisbon, Portugal",
+        country: "portugal",
+        type: "Full-time",
+        industry: "Information Technology",
+        salary: "Competitive + Relocation Package",
+        image: "https://ui-avatars.com/api/?name=Kwan&background=random&color=fff&size=128&bold=true",
+        description: `Cybersecurity Engineer - Kwan
+
+We are looking for a Cybersecurity Engineer to work in Lisbon.
+
+Responsibilities:
+- Monitor and analyze network activity.
+- Support implementation of security controls.
+- Investigate security events.
+
+Requirements:
+- 3+ years experience in cybersecurity.
+- Solid understanding of networking (TCP/IP).
+- Fluent English.
+
+Offer:
+- Competitive salary with benefits.
+- **Relocation package and visa sponsorship** for international hires.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.net-empregos.com/14867926/cybersecurity-engineer/"
+    },
+    {
+        id: 89,
+        slug: "speech-language-pathologist-feeding-expert-dynamics-singapore",
+        title: "Speech Language Pathologist [Feeding Expert] (High Salary)",
+        company: "Dynamics Feeding & Swallowing",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Healthcare",
+        image: "https://ui-avatars.com/api/?name=Dynamics+Feeding+Swallowing&background=random&color=fff&size=128&bold=true",
+        description: `Speech Language Pathologist [Feeding Expert] (High Salary)
+
+Job Description:
+We are on the lookout for Speech and Language Therapists to join our team, and provide assessment and intervention for children and adults. All applications shall be processed with the utmost confidentiality. For qualified foreign candidates, the company shall offer assistance in registration and getting local work visa (Employment Pass).
+
+The Role:
+- Help children and adults suffering from feeding, swallowing, and communication challenges
+- Providing guidance to caregivers
+- Work in a multidisciplinary team of professionals, including occupational therapists, physiotherapists, nutritionist, and psychologists.
+- The emphasis in this job is on clinical work. Non-clinical work such as administration, marketing, appointment booking, are all handled by the company's dedicated administration team.
+
+The Profile:
+- Recognised Degree in Speech Therapy or Speech Pathology
+- Experience in management of patients in a clinical setting (e.g. hospital)
+- Passionate about clinical education and training
+
+What we Offer:
+- Join our mission to help individuals break through any challenges they may have, particularly those in the areas of feeding, swallowing, speech, and communication.
+- Work alongside the a diverse team Speech Therapists and a large multidisciplinary team.
+- Individual (non-shared) office for full-time staff
+- Company issued laptop
+- Gain immense clinical experience and professional development through a varied caseload, mentorship, training, and interaction with peers.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://sg.linkedin.com/jobs/view/speech-language-pathologist-feeding-expert-high-salary-at-dynamics-feeding-swallowing-4360049831"
+    },
+    {
+        id: 90,
+        slug: "risk-services-ai-support-internship-pwc-singapore",
+        title: "Risk Services - AI Support Off-Cycle Internship (Jul - Dec 26)",
+        company: "PwC Singapore",
+        location: "Singapore",
+        country: "singapore",
+        type: "Internship",
+        industry: "Information Technology",
+        image: "https://ui-avatars.com/api/?name=Pwc+Singapore&background=random&color=fff&size=128&bold=true",
+        description: `Risk Services - AI Support Off-Cycle Internship (Jul - Dec 26)
+
+Job Description & Summary:
+At PwC AI Hub (Transformation), we accelerate adoption of network AI priorities and work with key stakeholders to attain investment outcomes. We champion market-facing activities in support of PwC AI brand positioning, and we collaborate with Learning & Development to establish AI business leadership skills to drive innovation and efficiency in the firm.
+
+Responsibilities:
+- Assist in coordinating AI-related activities and ensure consistency in approaches and outcomes
+- Support the onboarding and alignment of AI tools with both local and global strategies
+- Help facilitate collaboration between different Lines of Service (LoS) to promote AI initiatives
+- Monitor, analyse, and report on the usage and impact of AI tools, ensuring visibility of efforts and investments
+- Contribute to AI learning and development programs by coordinating learning & development opportunities for staff firmwide
+
+Requirements:
+- Analytical Skills: Ability to monitor, analyse, and report on AI tool usage and impact, alongside evaluating ROI from investments.
+- Communication Skills: Strong verbal and written communication skills to help facilitate cross-LoS collaboration and promote AI initiatives.
+- Organizational Abilities: Skills in coordination and project management to support the onboarding of AI tools and manage learning and development opportunities.
+- Technical Understanding: Basic understanding of Generative AI technologies and strategies to ensure alignment with local and global AI efforts.
+- Teamwork and Collaboration: Ability to work collaboratively across different LoS for community engagement and alignment initiatives.
+
+Required Skills:
+AI Implementation, C++ Programming Language, Communication, Complex Data Analysis, Data Analysis, Data Infrastructure, Data Integration, Data Modeling, Data Pipeline, Data Quality, Deep Learning, GPU Programming, Java (Programming Language), Machine Learning (ML), Machine Learning Libraries, Named Entity Recognition, Natural Language Processing (NLP), Natural Language Toolkit (NLTK).`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.foundit.sg/job/42560993"
+    },
+    {
+        id: 91,
+        slug: "shipping-disputes-lawyer-taylorroot-singapore",
+        title: "Shipping Disputes Lawyer",
+        company: "Taylorroot",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Legal",
+        image: "https://ui-avatars.com/api/?name=Taylorroot&background=random&color=fff&size=128&bold=true",
+        description: `Shipping Disputes Lawyer - Taylorroot
+
+Job Description:
+An international law firm who are market leaders in the shipping litigation sector are looking for a senior associate to join their team. They have a wide range of clients, from shipowners, charters and P&I clubs to trading companies and banks. The partners been recognised by various legal directories as one of the leading individuals for shipping, and dispute resolution work.
+
+Requirements:
+- Strong academic qualifications
+- SG or UK Qualified
+- You have at least 3 years of experience in both wet and dry shipping disputes.
+- Experience with London arbitrations will be advantageous
+- You are driven and keen on building a career in this practice area as this role comes with promising progression opportunities.
+
+Overseas candidates who fit the requirements and are keen to relocate to Singapore are welcome to apply!`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.foundit.sg/job/42562177"
+    },
+    {
+        id: 92,
+        slug: "capital-markets-accounting-advisory-senior-associate-pwc-singapore",
+        title: "Capital Markets and Accounting Advisory Services - Senior Associate",
+        company: "PwC",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Accounting",
+        image: "https://ui-avatars.com/api/?name=Pwc&background=random&color=fff&size=128&bold=true",
+        description: `Capital Markets and Accounting Advisory Services - Senior Associate
+
+Job Description & Summary:
+At PwC, we help clients build trust and reinvent so they can turn complexity into competitive advantage. We’re a tech-forward, people-empowered network with more than 370,000 people in 149 countries.
+
+How will you value add?
+As a Senior Associate, you will be supporting the engagement manager in providing innovative accounting and financial reporting solutions for our clients in the region, especially for enhancement of record to report processes and implementation of reporting solutions.
+
+Our accounting and reporting solutions includes:
+- Diagnostics / as-it assessment for reporting processes
+- End-to-end implementation support for the implementation of financial close and reporting solutions
+- Implementation of new accounting or reporting requirements
+- Accounting and reporting matters for the end-to-end IPO journey
+- Structuring transactions or financial products
+- Preparing financial statements including carve out, pro-forma, IFRS 7 disclosures etc.
+- Technical accounting advisory on IFRS or other GAAP requirements
+
+Requirements:
+- Ideally a graduate with accounting or finance qualification
+- Knowledge about automation of reporting processes and reporting systems for financial close, consolidation, financial planning and analysis (FP&A) or EPM.
+- Experience in reporting transformation or implementation of reporting solutions.
+- At least 2 to 3 years of relevant experience.
+- Strong analytical and communications skills.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 17, 2026",
+        externalUrl: "https://www.careerjet.sg/jobad/sgad7f0b55b013b558d377ba7ed09cc616"
+    },
+    {
+        id: 93,
+        slug: "ai-engineering-lead-global-investment-bank-pinpoint-asia-singapore",
+        title: "AI Engineering Lead – Global Investment Bank - J12158",
+        company: "Pinpoint Asia",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Information Technology",
+        image: "https://ui-avatars.com/api/?name=Pinpoint+Asia&background=random&color=fff&size=128&bold=true",
+        description: `AI Engineering Lead – Global Investment Bank - J12158
+
+Job Description:
+We’re partnering with a global investment bank seeking a senior AI engineer in Singapore. This team builds foundational platforms and tools that empower thousands of developers worldwide. They’re investing heavily in AI-driven engineering systems, creating intelligent tools that transform how software is developed, tested, and deployed.
+
+About the Role:
+As an AI Engineering Lead, you’ll design and implement next-generation platforms integrating agentic AI, knowledge graphs, and developer productivity systems. You’ll work at the intersection of AI, developer experience, and large-scale distributed systems.
+
+Key Responsibilities:
+- Architect, develop and build AI-powered systems to automate and enhance software development workflows.
+- Lead the design and evolution of knowledge graph and retrieval systems powering enterprise-scale Generative AI applications.
+- Develop developer productivity platforms and intelligent code-review or workflow automation tools used globally.
+- Integrate LLMs and AI agents into engineering workflows to streamline coding, testing, and deployment.
+- Collaborate with senior stakeholders across engineering, product, and infrastructure to deliver scalable solutions.
+
+Required Skills & Experience:
+- 10+ years of hands-on software engineering experience.
+- Proficiency in at least one of: Python, Java, Go, or C++.
+- Strong understanding of software engineering fundamentals, distributed systems, and SDLC best practices.
+- Experience with cloud platforms (AWS, GCP, Azure), CI/CD pipelines, and containerization (Docker, Kubernetes).
+- Familiarity with AI/ML technologies, LLMs, or developer tooling platforms (e.g., Backstage, Port).`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://sg.linkedin.com/jobs/view/ai-engineering-lead-%E2%80%93-global-investment-bank-j12158-at-pinpoint-asia-4360021865"
+    },
+    {
+        id: 94,
+        slug: "regional-senior-legal-counsel-geodis-singapore",
+        title: "Regional Senior Legal Counsel",
+        company: "Geodis Apac (holdings) Pte. Ltd.",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Legal",
+        salary: "8,000 - 12,000 SGD /MONTH",
+        image: "https://ui-avatars.com/api/?name=Geodis&background=random&color=fff&size=128&bold=true",
+        description: `Regional Senior Legal Counsel - Geodis Apac (holdings) Pte. Ltd.
+
+Job Description:
+The Regional Senior Legal Counsel / Regional Legal Counsel (LC) will be based in Singapore and reporting to the Regional Head of Legal, APAC & Middle East. The scope of work is very broad as the candidate is expected to support the APACME region in a wide range of legal work.
+
+Roles and responsibility:
+- Contractual review & other legal support: Draft and support the legal review of various commercial documents including customer agreements, supplier agreements for the region (18 countries).
+- Proactively partner and work with other colleagues in the region to negotiate contractual terms.
+- Apply effective risk management techniques and offer proactive advice on possible legal issues in the region.
+- Provide legal support to other departments including data protection office, compliance and internal controls.
+- Corporate and Company Secretarial matters: Provide corporate legal advice on development/growth projects, from confidentiality agreements to Negotiating acquisitions / joint ventures.
+- Claims and Contentious Disputes: Provide support on claims and disputes to various business units.
+
+Requirements:
+- Minimally a bachelor's degree in law gained ideally from an Australian University.
+- Admission to the bar, preferably to an Australian state bar exam.
+- 6-8 years PQE.
+- Background in litigation / arbitration / insurance / international trade / Projects and M&A will be valued.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.foundit.sg/job/42456724"
+    },
+    {
+        id: 95,
+        slug: "senior-account-executive-apac-flagright-singapore",
+        title: "Senior Account Executive (APAC) - Singapore",
+        company: "Flagright",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Sales",
+        image: "https://ui-avatars.com/api/?name=Flagright&background=random&color=fff&size=128&bold=true",
+        description: `Senior Account Executive (APAC) - Singapore
+
+About Flagright:
+Flagright is an AI-native financial crime compliance platform used globally by Fortune 500 companies, large banks, fintechs, and fast growing startups.
+
+Role overview:
+We are hiring a Senior Account Executive (AE) in Singapore to own revenue across APAC. This is a player/coach role with full ownership across all deal sizes and customer profiles.
+
+Key responsibilities:
+- Revenue Ownership: Own the full sales cycle end-to-end across all deal sizes.
+- Close deals with fintechs, banks, and financial institutions.
+- Maintain a disciplined, conversion-focused pipeline.
+- Pipeline & Market Development: Build pipeline through a mix of inbound, outbound, and proactive market activity.
+- Travel across APAC to represent Flagright at conferences and industry events.
+- Player / Coach Responsibilities: Set the standard for deal quality, discovery depth, and demo execution.
+
+Your profile:
+- 4+ years of B2B SaaS sales experience with direct closing responsibility.
+- Relevant industry knowledge in fintech, payments, banking, compliance, risk, or financial infrastructure.
+- Existing professional network within relevant industries in Singapore, Hong Kong, or Australia.
+- Visa sponsorship is supported for the right candidate.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://sg.indeed.com/viewjob?jk=dc194258d7a0fb97"
+    },
+    {
+        id: 96,
+        slug: "quantitative-researcher-alpha-research-anson-mccade-singapore",
+        title: "Quantitative Researcher - Alpha Research",
+        company: "Anson McCade",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Financial Services",
+        salary: "$200,000 SGD",
+        image: "https://ui-avatars.com/api/?name=Anson+McCade&background=random&color=fff&size=128&bold=true",
+        description: `Quantitative Researcher - Alpha Research
+
+The client is a well renowned Hedge Fund with main offices in London, Paris, New York, Hong Kong and Singapore.
+
+Role Responsibilities:
+- Collaborating with other Quantitative Researchers to collect data and analyze targeted markets in order to identify trends and patterns.
+- Leveraging extracted data using statistical analysis and predictive models to generate signals and support investment decisions.
+- Backtesting signals and developing them into systematic trading strategies.
+- Monitoring strategy profitability and behaviours, continuously making tweaks and improvements.
+
+Requirements:
+- Ideally 2/3+ years recent experience in a Quantitative Research oriented position.
+- Deep understanding of data science techniques; feature engineering and signal combining etc.
+- Strong proficiency with Python. C++ is not a hard requirement but would be favourable.
+- Bachelor's degree or high in Computer Science, Mathematics, Statistics, Electrical Engineering or a similar Quantitative Discipline.
+
+Remuneration:
+- Highly competitive compensation package including firm performance related bonus ($200,000 SGD base).
+- Visa sponsorship is available to non-Singapore PRs.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 16, 2026",
+        externalUrl: "https://www.efinancialcareers.com/jobs-Singapore-Singapore-Quantitative_Researcher_-_Alpha_Research.id23675396"
+    },
+    {
+        id: 97,
+        slug: "private-equity-associate-aidentifi-singapore",
+        title: "Private Equity Associate",
+        company: "Aidentifi",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Financial Services",
+        image: "https://ui-avatars.com/api/?name=Aidentifi&background=random&color=fff&size=128&bold=true",
+        description: `Private Equity Investment Strategist (Associate) | Singapore
+
+About Our Client:
+Our client is a globally recognized institutional investor with a long-term approach to private equity. With a diverse portfolio spanning direct investments and fund-of-funds across global markets.
+
+Key Responsibilities:
+- Partner with global deal teams to evaluate direct investment and fund opportunities.
+- Develop financial models and conduct due diligence to support underwriting decisions.
+- Craft investment memos and strategic papers for senior stakeholders.
+- Drive portfolio construction analysis, sector/thematic research, and capital allocation strategy.
+- Contribute to ongoing tracking and performance assessment of portfolio assets.
+
+Ideal Candidate:
+- 2–4 years of experience in investment banking, strategy consulting, or private equity.
+- Strong analytical skills with proficiency in valuation, financial modeling, and market research.
+- Excellent communication and presentation abilities, with a structured problem-solving approach.
+- Demonstrated interest in private equity investing and long-term capital strategy.
+
+Visa sponsorship is available for overseas candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://sg.linkedin.com/jobs/view/private-equity-associate-at-aidentifi-4359015445"
+    },
+    {
+        id: 98,
+        slug: "shipping-disputes-lawyer-taylor-root-singapore-linkedin",
+        title: "Shipping Disputes Lawyer",
+        company: "Taylor Root",
+        location: "Singapore",
+        country: "singapore",
+        type: "Full-time",
+        industry: "Legal",
+        image: "https://ui-avatars.com/api/?name=Taylor+Root&background=random&color=fff&size=128&bold=true",
+        description: `Shipping Disputes Lawyer - Taylor Root
+
+Job Description:
+An international law firm who are market leaders in the shipping litigation sector are looking for a senior associate to join their team. They have a wide range of clients, from shipowners, charters and P&I clubs to trading companies and banks.
+
+Requirements:
+- Strong academic qualifications
+- SG or UK Qualified
+- You have at least 3 years of experience in both wet and dry shipping disputes.
+- Experience with London arbitrations will be advantageous.
+- You are driven and keen on building a career in this practice area.
+
+Overseas candidates who fit the requirements and are keen to relocate to Singapore are welcome to apply!`,
+        visaSponsorship: true,
+        publishedDate: "Jan 15, 2026",
+        externalUrl: "https://sg.linkedin.com/jobs/view/shipping-disputes-lawyer-at-taylor-root-4362476734"
+    },
+    {
+        id: 99,
+        slug: "devops-consultant-ssv-tech-dallas",
+        title: "DevOps Consultant for W2 Marketing",
+        company: "SSV Technologies Inc",
+        location: "Dallas, Texas, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "IT",
+        image: "https://ui-avatars.com/api/?name=SSV+Technologies+Inc&background=random&color=fff&size=128&bold=true",
+        description: `Hiring Devops Consultants for W2 Marketing - SSV Technologies Inc
+
+Job Details:
+Are you an experienced IT professional looking for a reliable employer and aggressive marketing? We are actively hiring and marketing senior consultants on W2 only.
+
+SSV TECHNOLOGIES Offers:
+- Immediate H1B transfers with premium processing.
+- Sponsorship for eligible candidates.
+- Direct marketing to Tier-1 vendors and implementation partners.
+- Transparent and competitive W2 pay rates.
+- Target Roles: Java Full Stack, Python/AI/ML, Data Engineer, DevOps (AWS & Azure), Data Analyst, Salesforce, and Cloud Architects.
+- Eligibility: H1B Transfer, and(/L2).
+
+H1B Transfers: We handle the entire legal process smoothly.
+
+Exclusive Requirements: Access to direct client roles across the USA.
+
+Support: Dedicated legal team for your filings.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.linkedin.com/jobs/view/hiring-devops-consultants-for-w2-marketing-at-jobs-via-dice-4360815800"
+    },
+    {
+        id: 100,
+        slug: "informatica-idmc-mdm-architect-cloudblue-houston",
+        title: "Informatica IDMC MDM Architect",
+        company: "CloudBlue Technologies",
+        location: "Houston, Texas, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "IT",
+        image: "https://ui-avatars.com/api/?name=CloudBlue+Technologies&background=random&color=fff&size=128&bold=true",
+        description: `Job Title: Informatica IDMC MDM Architect (SaaS, Multidomain)
+
+Location: Hybrid – Houston, TX (Mostly Remote)
+Experience: 10+ Years in Master Data Management
+Visa: H1B, -EAD, USC
+
+Role Summary:
+We are seeking a seasoned Informatica IDMC MDM Architect with over 10 years of Master Data Management experience and strong hands-on expertise in SaaS-based multidomain MDM implementations. The ideal candidate will provide architectural leadership across Informatica IDMC MDM, CAI, CDI, and Data Quality, and lead global onshore/offshore delivery teams.
+
+Key Responsibilities:
+- Design and lead end-to-end SaaS MDM architecture using Informatica IDMC across Customer, Supplier, Product, Reference, and Finance domains.
+- Configure MDM data models, hierarchies, relationships, and reference data.
+- Define and implement match & merge, survivorship rules, and trust score frameworks.
+- Architect and develop integrations using Cloud Application Integration (CAI) and Cloud Data Integration (CDI).
+- Implement data quality rules, profiling, monitoring, and remediation workflows.
+- Design scalable, secure, and compliant integration architectures with upstream and downstream systems.
+- Provide technical leadership to onshore and offshore teams, ensuring design quality and delivery milestones.
+
+Required Skills & Expertise:
+- Strong hands-on experience with Informatica IDMC (MDM SaaS, CAI, CDI, CDQ).
+- Expertise in Multidomain MDM architecture and configuration.
+- Deep knowledge of data modeling, survivorship, trust, and hierarchy management.
+- Experience with API-based, event-driven, and batch integration patterns.
+- Solid understanding of Data Quality, governance, and stewardship frameworks.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.linkedin.com/jobs/view/hiring-informatica-idmc-mdm-architect-houston-tx-hybrid-h1b-ead-usc-at-jobs-via-dice-4360905797"
+    },
+    {
+        id: 101,
+        slug: "resident-engineer-civil-science-st-george",
+        title: "Resident Engineer",
+        company: "Civil Science",
+        location: "Saint George, Utah, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "Engineering",
+        image: "https://ui-avatars.com/api/?name=Civil+Science&background=random&color=fff&size=128&bold=true",
+        description: `Resident Engineer - Civil Science
+
+Are you ready to make a meaningful impact on your community while advancing your career? Civil Science is looking for a talented and driven Resident Engineer to join our dynamic team in Salt Lake City, St. George, Richfield, or Lehi, Utah.
+
+What You'll Do:
+- Serve as the vital connection between project stakeholders and the engineering team.
+- Oversee the implementation, maintenance, and troubleshooting of construction projects.
+- Manage project schedules and budgets, ensuring timely and cost-effective delivery.
+- Lead local roadway and state DOT projects.
+
+What We're Looking For:
+- Utah Professional Engineer License (required).
+- Bachelor’s Degree in Civil Engineering or a related field.
+- UDOT CEMT Certification (or ability to get certified within 3 months).
+- 8+ years of recent experience in highway/DOT projects.
+- Strong technical knowledge of engineering principles, codes, and standards.
+
+Why Join Civil Science?
+- Ownership in Your Future: 100% employee-owned firm (ESOP).
+- Work-Life Harmony: Flexibility to ensure your career complements your personal life.
+- Comprehensive Benefits: 3 weeks PTO, health insurance, 401K, etc.
+
+Visa Sponsorship:
+Civil Science evaluates and determines on a case-by-case basis whether it is willing to sponsor an individual for a temporary or permanent work visa (e.g., E-3, H-1B, H-1B1, or TN visa status).`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.simplyhired.com/job/k7b2nbc5zyYQZ-3_vHvpAN3R-s3bOqguIXTADNPW2Z3NHuy8klD3Jw"
+    },
+    {
+        id: 102,
+        slug: "it-squad-lead-ampstek-fort-worth",
+        title: "IT Squad Lead",
+        company: "Ampstek",
+        location: "Fort Worth, Texas, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "IT",
+        image: "https://ui-avatars.com/api/?name=Ampstek&background=random&color=fff&size=128&bold=true",
+        description: `Job Title: IT Squad Lead
+Location: Fort Worth, TX
+Experience: 8-10 Years
+
+Job Description:
+Onshore squad lead ensuring timely engineering ownership and feature delivery. The candidate will lead a team of 6-8 software and quality engineers (onshore/offshore).
+
+Top 3 Mandatory Skills:
+1. Agile Coaching & Facilitation: Ability to promote transparency and coach teams to adopt new ways of working.
+2. Delivery Leadership and Process Optimization: Strong project management skills to ensure delivery of work items and removing roadblocks.
+3. Product Ownership Support: Coaching and assisting Product Owners in backlog maintenance and gathering requirements.
+
+Qualifications:
+- Bachelor’s Degree in Computer Science or related field.
+- 4+ years of work experience in an agile environment.
+- Proven ability to promote a team environment and collaborate cross-functionally.
+- Experience with Azure Cloud projects preferred.
+- Scrum Master certification (CSM, PSM, or SSM) preferred.
+
+Visa Sponsorship:
+Open to H1B candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.linkedin.com/jobs/view/it-squad-lead-at-ampstek-4360943176"
+    },
+    {
+        id: 103,
+        slug: "avp-chief-of-staff-cla-ung-dahlonega",
+        title: "Associate Vice President & Chief of Staff for CLA",
+        company: "University of North Georgia",
+        location: "Dahlonega, Georgia, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "Education",
+        image: "https://ui-avatars.com/api/?name=University+of+North+Georgia&background=random&color=fff&size=128&bold=true",
+        description: `Associate Vice President & Chief of Staff (AVP-CoS) - University of North Georgia
+
+Job Summary:
+The AVP-CoS serves as the principal executive partner and senior staff officer to the Senior Vice President and Superintendent of the Cadet Leadership Academy (CLA). Provides strategic oversight and executive management by translating senior-leader intent into synchronized execution across the CLA enterprise.
+
+Responsibilities:
+- Executive Integration & Decision Support: Directing staff action and preparing decision-quality briefs.
+- Strategic Planning & Campaign Execution: Leading the development and continuous assessment of the CLA Campaign Plan.
+- Enterprise Oversight: Providing executive oversight of Plans, Programs, and Operations.
+- Governance & Resource Stewardship: Aligning resources with the Campaign Plan.
+
+Required Qualifications:
+- Master's degree in a military, strategic, or national security discipline.
+- Minimum of 20 years of active Army officer experience.
+- Valid driver's license.
+
+Visa Sponsorship Info:
+Any offer of employment is contingent upon your eligibility to work in the United States. While the university is committed to supporting international faculty hires, it cannot guarantee payment of newly imposed or increased visa-related fees (H-1B).`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.linkedin.com/jobs/view/associate-vice-president-amp-chief-of-staff-for-cla-at-inside-higher-ed-4364630246"
+    },
+    {
+        id: 104,
+        slug: "oracle-apex-developer-hyr-global-jersey-city",
+        title: "Oracle Apex Developer",
+        company: "HYR Global Source Inc",
+        location: "Jersey City, New Jersey, United States",
+        country: "usa",
+        type: "Contract",
+        industry: "IT",
+        image: "https://ui-avatars.com/api/?name=HYR+Global+Source+Inc&background=random&color=fff&size=128&bold=true",
+        description: `Oracle APEX Developer - HYR Global Source Inc
+
+Experience: 10+ Years
+Location: Onsite (Jersey City, NJ)
+
+Job Summary:
+We are seeking an experienced Oracle APEX Developer to design, develop, enhance, and support enterprise-grade web applications using Oracle APEX. You will work closely with stakeholders and database teams to deliver scalable solutions.
+
+Key Responsibilities:
+- Design and develop web applications using Oracle APEX.
+- Build complex forms, reports, and dashboards.
+- Write and optimize PL/SQL packages, procedures, and functions.
+- Optimize Oracle database schemas, views, and indexes.
+- Implement security, authentication (SSO/LDAP), and authorization.
+- Troubleshoot and tune performance of applications.
+
+Required Skills:
+- Strong hands-on experience with Oracle APEX and PL/SQL.
+- Expertise in SQL and Oracle Database (19c preferred).
+- Experience with RESTful Web Services and ORDS.
+- Knowledge of HTML, CSS, and JavaScript.
+
+Visa Types:
+H1B transfer, EAD.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://click.appcast.io/t/QI2WW4TkyNOvJbW0cP0tWxz3HATkhKIPFAkl07ZiQdg="
+    },
+    {
+        id: 105,
+        slug: "oracle-oic-developer-hyr-global-queens",
+        title: "Oracle Integration Cloud (OIC) Developer",
+        company: "HYR Global Source Inc",
+        location: "Queens, New York, United States",
+        country: "usa",
+        type: "Contract",
+        industry: "IT",
+        image: "https://ui-avatars.com/api/?name=HYR+Global+Source+Inc&background=random&color=fff&size=128&bold=true",
+        description: `Oracle Integration Cloud (OIC) Developer - HYR Global Source Inc
+
+Experience: 10+ Years
+Location: Remote (Prefer NY/NJ locals)
+
+Job Summary:
+We are looking for a skilled OIC Developer to design, develop, and support cloud-based integrations between enterprise systems. Build scalable integrations and ensure reliable data flow across applications.
+
+Key Responsibilities:
+- Design and develop integrations using Oracle Integration Cloud (OIC).
+- Manage App Driven Orchestrations, Scheduled, and Basic Integrations.
+- Configure and use OIC adapters (REST, SOAP, ERP, Database, etc.).
+- Handle data transformations using XSLT and lookup mappings.
+- Implement fault handling, logging, and performance monitoring.
+
+Required Skills:
+- Strong hands-on experience with Oracle Integration Cloud (OIC).
+- Proficiency in REST/SOAP Web Services, XSLT, and XPath.
+- Knowledge of Oracle SaaS integrations (ERP, HCM).
+- Experience with connectivity agents and cloud security.
+
+Visa Types:
+H1B & any.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.linkedin.com/jobs/view/remote-oracle-integration-cloud-oic-developer-prefer-locals-ny-nj-at-jobs-via-dice-4360845821"
+    },
+    {
+        id: 106,
+        slug: "seasonal-landscape-laborer-ideal-landscaping-kernersville",
+        title: "Seasonal Landscape Laborer",
+        company: "Ideal Landscaping & Irrigation",
+        location: "Kernersville, North Carolina, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "Landscaping",
+        image: "https://ui-avatars.com/api/?name=Ideal+Landscaping&background=random&color=fff&size=128&bold=true",
+        description: `Seasonal Landscape Laborer - Ideal Landscaping & Irrigation Inc.
+
+Dates: 3/8/2026 - 11/13/2026
+Pay: $17.87 per hour (Overtime $26.81)
+
+Job Duties:
+Landscape or maintain grounds of property using hand or power tools. Tasks include sod laying, mowing, trimming, planting, watering, fertilizing, digging, raking, and sprinkler installation. Lift/carry up to 100 pounds. 40 hours per week.
+
+Requirements:
+- 3 months experience in landscape labor.
+- Post-employment drug test (upon suspicion).
+- Ability to work extended hours and weekends when necessary.
+
+Benefits:
+- Shared housing available ($105/week).
+- Employer provided tools and transportation to job sites.
+- Visa and processing fee reimbursement for H-2B workers.
+
+Visa Sponsorship:
+This position is part of a concurrent H-2B labor certification application.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.simplyhired.com/job/0Sb_jxzgkP7TENSkJAo1MrkUE-i4XngMyuPk-IayFtHGIzcdnOePhg"
+    },
+    {
+        id: 107,
+        slug: "gis-technician-ii-jmt-raleigh",
+        title: "GIS Technician II",
+        company: "Johnson, Mirmiran & Thompson",
+        location: "Raleigh, North Carolina, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "IT",
+        image: "https://ui-avatars.com/api/?name=Johnson+Mirmiran+Thompson&background=random&color=fff&size=128&bold=true",
+        description: `GIS Technician II - JMT Technology Group
+
+Job Description:
+Use Esri software (ArcGIS Pro/Online) and AutoCAD to collect, create, and edit power utility GIS data. Reports to the client’s Raleigh, NC office a minimum of 3 days a week.
+
+Essential Functions:
+- Edit and maintain vector GIS data in file geodatabases and SDE.
+- Publish and manage map services in ArcGIS Online/Portal.
+- Produce high-quality map deliverables and conduct QA/QC integrity checks.
+- Interpret source data files and translate into GIS formats.
+
+Qualifications:
+- Bachelor’s or Master’s degree in Geography, GIS, or related field.
+- 2+ years of experience with Esri’s latest technology suite.
+- Knowledge of AutoCAD and utility data preferred.
+- Strong communication skills.
+
+Visa Sponsorship:
+Immigration sponsorship (H1B, F-1 OPT) is not available, EXCLUDING qualified candidates eligible for the TN visa classification.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 19, 2026",
+        externalUrl: "https://www.linkedin.com/jobs/view/gis-technician-ii-at-johnson-mirmiran-thompson-4353826045"
+    },
+    {
+        id: 108,
+        slug: "general-dentist-sungshim-dental-honolulu",
+        title: "General Dentist",
+        company: "Sungshim Dental Inc",
+        location: "Honolulu, Hawaii, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "Healthcare",
+        image: "https://ui-avatars.com/api/?name=Sungshim+Dental&background=random&color=fff&size=128&bold=true",
+        description: `General Dentist - Sungshim Dental Inc
+
+About Us:
+Modern, patient-centered private practice in Honolulu. We focus on clinical excellence and supported doctor growth.
+
+Why Join Us?
+- Advanced Clinical Exposure: High volume of complex cases (Full-mouth rehab, surgical extractions, All-on-X implants).
+- Flexible Schedule: 12–30 hours per week (PT or FT available).
+- Modern Workflow: Fully integrated digital workflow with intraoral scanners and in-house laboratory.
+- Supportive Culture: No production pressure, adequate appointment times.
+
+Requirements:
+- DDS or DMD from an accredited dental school.
+- Active Hawaii dental license (or eligibility).
+- Strong communication skills.
+- Korean/Chinese/Japanese language skills are a strong plus.
+
+Visa Sponsorship:
+Visa sponsorship (H-1B or permanent residency) may be considered for well-qualified candidates.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 20, 2026",
+        externalUrl: "https://www.indeed.com/viewjob?jk=e62546b93b8e0c5f"
     }
 ];

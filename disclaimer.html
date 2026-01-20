@@ -9,44 +9,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="container">
             <div class="nav-content">
-                <a href="index.html" class="logo">Visa Sponsorship <span>Jobs</span></a>
+                <a href="index.html" class="logo">
+                    <img src="logo-new.png" alt="Visa Sponsorship Jobs"
+                        style="height: 40px; margin-right: 10px; vertical-align: middle;">
+                    Visa Sponsorship Jobs - Global <span>Jobs</span>
+                </a>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="jobs.html">Jobs</a></li>
                     <li><a href="blog.html">Blog</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Countries</a>
+                        <ul class="dropdown-menu countries-dropdown">
+                            <div class="dropdown-column">
+                                <li><a href="jobs.html?country=australia">Australia</a></li>
+                                <li><a href="jobs.html?country=austria">Austria</a></li>
+                                <li><a href="jobs.html?country=belgium">Belgium</a></li>
+
+
+                                <li><a href="jobs.html?country=canada">Canada</a></li>
+                                <li><a href="jobs.html?country=denmark">Denmark</a></li>
+                                <li><a href="jobs.html?country=finland">Finland</a></li>
+
+                                <li><a href="jobs.html?country=france">France</a></li>
+                                <li><a href="jobs.html?country=germany">Germany</a></li>
+                            </div>
+                            <div class="dropdown-column">
+                                <li><a href="jobs.html?country=iceland">Iceland</a></li>
+                                <li><a href="jobs.html?country=ireland">Ireland</a></li>
+                                <li><a href="jobs.html?country=japan">Japan</a></li>
+                                <li><a href="jobs.html?country=luxembourg">Luxembourg</a></li>
+                                <li><a href="jobs.html?country=netherlands">Netherlands</a></li>
+                                <li><a href="jobs.html?country=new-zealand">New Zealand</a></li>
+                                <li><a href="jobs.html?country=norway">Norway</a></li>
+                                <li><a href="jobs.html?country=portugal">Portugal</a></li>
+                            </div>
+                            <div class="dropdown-column">
+                                <li><a href="jobs.html?country=singapore">Singapore</a></li>
+                                <li><a href="jobs.html?country=south-korea">South Korea</a></li>
+                                <li><a href="jobs.html?country=sweden">Sweden</a></li>
+                                <li><a href="jobs.html?country=switzerland">Switzerland</a></li>
+
+                                <li><a href="jobs.html?country=uk">United Kingdom</a></li>
+                                <li><a href="jobs.html?country=usa">United States</a></li>
+                            </div>
+                        </ul>
+                    </li>
                     <li><a href="about.html">About Us</a></li>
                 </ul>
+                <button class="theme-toggle" id="themeToggle">
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                            fill="currentColor" />
+                    </svg>
+                </button>
             </div>
         </div>
     </nav>
 
+    <section class="hero" style="min-height: 40vh;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Disclaimer</h1>
+            </div>
+        </div>
+    </section>
+
     <div class="container" style="padding: 4rem 0;">
-        <h1 style="margin-bottom: 2rem;">Disclaimer</h1>
-        <div style="max-width: 800px; line-height: 1.8;">
-            <p><strong>Recruitment Facilitation Only</strong></p>
-            <p>The platform facilitates recruitment by connecting job seekers and employers. We do not hire on behalf of
-                any company listed unless explicitly stated.</p>
-
-            <p><strong>Employer Responsibility</strong></p>
-            <p>Employers are responsible for job accuracy, including salary, requirements, and visa sponsorship details.
-                We do not verify every job listing.</p>
-
-            <p><strong>Candidate Responsibility</strong></p>
-            <p>Candidates are responsible for the information provided in their applications, CVs, and profiles.</p>
-
-            <p><strong>No Guarantee of Employment</strong></p>
-            <p>The platform does not guarantee employment. Applying to a job does not ensure an interview or a job
-                offer.</p>
-
-            <p><strong>Liability</strong></p>
-            <p>The platform is not liable for employer decisions, hiring processes, or any disputes arising between
-                candidates and employers.</p>
+        <div style="max-width: 800px; margin: 0 auto; line-height: 1.8; font-size: 1.1rem;">
+            <p><strong>Disclaimer:</strong> The information contained in this website is for general information
+                purposes only. The website goal is to connect job seekers with potential employers and provide relevant
+                job search resources. We do not take responsibility for the accuracy of job listings, hiring outcomes,
+                or any actions taken based on the information provided on this platform.</p>
         </div>
     </div>
 
@@ -54,38 +95,78 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3 class="footer-logo">Visa Sponsorship <span>Jobs</span></h3>
-                    <p>Visa Sponsor Jobs is a global job board designed to provide an easy way to find jobs that offer
+                    <h3 class="footer-logo">Visa Sponsorship Jobs - Global <span>Jobs</span></h3>
+                    <p>Connect with top employers globally through our platform. We specialize in finding jobs that
+                        offer
                         visa sponsorship around the world.</p>
+                    <div class="social-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="https://facebook.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section" style="grid-column: span 2;">
                     <h4>Countries</h4>
-                    <ul>
-                        <li><a href="jobs.html?country=new-zealand">New Zealand</a></li>
+                    <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;">
                         <li><a href="jobs.html?country=australia">Australia</a></li>
+                        <li><a href="jobs.html?country=austria">Austria</a></li>
+                        <li><a href="jobs.html?country=belgium">Belgium</a></li>
+
+
                         <li><a href="jobs.html?country=canada">Canada</a></li>
+                        <li><a href="jobs.html?country=denmark">Denmark</a></li>
+                        <li><a href="jobs.html?country=finland">Finland</a></li>
+
+                        <li><a href="jobs.html?country=france">France</a></li>
+                        <li><a href="jobs.html?country=germany">Germany</a></li>
+                        <li><a href="jobs.html?country=iceland">Iceland</a></li>
+                        <li><a href="jobs.html?country=ireland">Ireland</a></li>
+                        <li><a href="jobs.html?country=japan">Japan</a></li>
+                        <li><a href="jobs.html?country=luxembourg">Luxembourg</a></li>
+                        <li><a href="jobs.html?country=netherlands">Netherlands</a></li>
+                        <li><a href="jobs.html?country=new-zealand">New Zealand</a></li>
+                        <li><a href="jobs.html?country=norway">Norway</a></li>
+                        <li><a href="jobs.html?country=portugal">Portugal</a></li>
+                        <li><a href="jobs.html?country=singapore">Singapore</a></li>
+                        <li><a href="jobs.html?country=south-korea">South Korea</a></li>
+                        <li><a href="jobs.html?country=sweden">Sweden</a></li>
+                        <li><a href="jobs.html?country=switzerland">Switzerland</a></li>
+
+                        <li><a href="jobs.html?country=uk">United Kingdom</a></li>
                         <li><a href="jobs.html?country=usa">United States</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Company</h4>
+                    <h4>Explore</h4>
                     <ul>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Legal</h4>
-                    <ul>
                         <li><a href="disclaimer.html">Disclaimer</a></li>
+                        <li><a href="mailto:info@visasponsorjobs.com">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Visa Sponsorship Jobs. All rights reserved.</p>
+            <div class="footer-bottom" style="text-align: left; border-top: 1px solid #1f2937; padding-top: 2rem;">
+                <p style="margin-bottom: 1rem; color: #9ca3af; font-size: 0.95rem;">&copy; 2026 visasponsorshipjobs.in.
+                    All
+                    Rights Reserved.</p>
+                <div class="footer-legal-links" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <a href="terms.html"
+                        style="color: #9ca3af; text-decoration: none; font-size: 0.95rem; transition: color 0.2s;">Terms
+                        & Conditions</a>
+                    <a href="privacy.html"
+                        style="color: #9ca3af; text-decoration: none; font-size: 0.95rem; transition: color 0.2s;">Privacy
+                        Policy</a>
+                </div>
             </div>
         </div>
     </footer>
+
 
     <script src="script.js"></script>
 </body>
