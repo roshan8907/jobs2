@@ -163,6 +163,67 @@
             margin-top: 1rem;
         }
 
+        .channel-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .channel-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.6rem 1.25rem;
+            border-radius: 6px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .telegram-btn {
+            color: #0088cc;
+            border: 1px solid #0088cc;
+            background: #fff;
+        }
+
+        .telegram-btn:hover {
+            background: #f0f7ff;
+            transform: translateY(-2px);
+        }
+
+        .whatsapp-btn {
+            color: #25d366;
+            border: 1px solid #25d366;
+            background: #fff;
+        }
+
+        .whatsapp-btn:hover {
+            background: #f0fff4;
+            transform: translateY(-2px);
+        }
+
+        .job-disclaimer {
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px dashed var(--border-color);
+        }
+
+        .job-disclaimer h4 {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+        }
+
+        .job-disclaimer p {
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.7;
+        }
+
         .apply-btn-large {
             width: 100%;
             padding: 1.25rem;
@@ -246,6 +307,10 @@
 
             .desktop-actions {
                 display: none;
+            }
+
+            .channel-buttons {
+                flex-direction: column;
             }
 
             .mobile-actions {
@@ -353,6 +418,24 @@
                         <div class="job-description-container">
                             <span class="section-label">Job Description:</span>
                             <div id="jobDescription" class="job-content-text"></div>
+                        </div>
+
+                        <div class="channel-buttons">
+                            <a href="https://t.me/visasponsorshipjobsworldwide" target="_blank"
+                                class="channel-btn telegram-btn">
+                                <i class="fab fa-telegram-plane"></i> Join our Telegram Channel
+                            </a>
+                            <a href="https://whatsapp.com/channel/0029Vb7dC3vIt5rqlWsgix3v" target="_blank"
+                                class="channel-btn whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Join our WhatsApp Channel
+                            </a>
+                        </div>
+
+                        <div class="job-disclaimer">
+                            <h4>Disclaimer:</h4>
+                            <p>_ The information contained in this website is for general information purposes only. The
+                                website goal is to connect job seekers with potential employers and provide relevant job
+                                search resources.</p>
                         </div>
                     </div>
 
