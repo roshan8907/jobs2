@@ -346,6 +346,22 @@ function initJobsPage() {
     if (locationFilter) locationFilter.value = c;
     if (industryFilter) industryFilter.value = ind;
 
+    // Highlight active pill if on jobs page
+    if (c) {
+        const pills = document.querySelectorAll('.hero-pill');
+        pills.forEach(p => {
+            p.classList.remove('active');
+            if (p.dataset.country === c) p.classList.add('active');
+        });
+    } else {
+        // Default to 'All Countries' pill if no country param
+        const allPill = document.querySelector('.hero-pill[data-country=""], .hero-pill[data-country="all"]');
+        if (allPill) {
+            document.querySelectorAll('.hero-pill').forEach(p => p.classList.remove('active'));
+            allPill.classList.add('active');
+        }
+    }
+
     // Initial Filter
     filterAndRenderJobs();
 
