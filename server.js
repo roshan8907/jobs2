@@ -31,8 +31,11 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Static Files - serve the current directory
-app.use(express.static(path.join(__dirname)));
+// Static Files - serve the current directory with support for clean URLs
+app.use(express.static(path.join(__dirname), {
+    extensions: ['html'],
+    index: 'index.html'
+}));
 // Create uploads directory if not exists
 const fs = require('fs');
 if (!fs.existsSync('./uploads')) {
