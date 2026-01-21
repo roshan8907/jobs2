@@ -331,15 +331,9 @@ if (heroSearchBtn) {
         const params = new URLSearchParams();
         if (keyword) params.append('q', keyword);
         if (industry) params.append('industry', industry);
+        if (location && location !== 'all') params.append('country', location);
 
-        let baseUrl = '/jobs';
-        if (location && location !== 'all') {
-            // Normalize location (new-zealand -> newzealand) to match SEO URL structure
-            baseUrl = `/visasponsorshipjobsin${location.replace(/-/g, '')}`;
-        }
-
-        const queryString = params.toString();
-        window.location.href = baseUrl + (queryString ? '?' + queryString : '');
+        window.location.href = '/jobs' + (params.toString() ? '?' + params.toString() : '');
     });
 }
 
@@ -379,22 +373,12 @@ function initJobsPage() {
     const c = urlParams.get('country') || '';
     const ind = urlParams.get('industry') || '';
 
-    // Auto-redirect to SEO clean URLs if only country is selected
-    if (window.location.pathname.includes('jobs.html') && c && !q && !ind) {
-        const cleanCountry = c.replace(/-/g, '');
-        window.location.replace(`/visasponsorshipjobsin${cleanCountry}`);
-        return;
-    }
-
     const searchInput = document.getElementById('searchInput');
     const locationFilter = document.getElementById('locationFilter');
     const industryFilter = document.getElementById('industryFilter');
 
-    // Normalize country name (e.g., southkorea -> south-korea)
-    const normalizedCountry = c.replace('southkorea', 'south-korea').replace('newzealand', 'new-zealand');
-
     if (searchInput) searchInput.value = q;
-    if (locationFilter) locationFilter.value = normalizedCountry;
+    if (locationFilter) locationFilter.value = c;
     if (industryFilter) industryFilter.value = ind;
 
     // Initial Filter

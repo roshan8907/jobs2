@@ -4,13 +4,3 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^([^/]+)$ $1.html [L]
-
-# Custom Country URL Mappings
-# Mapping the specific requested format to the correct files or search results
-
-# Generic rule for all other countries
-# e.g., visasponsorshipjobsinaustralia -> jobs.html?country=australia
-# We skip this if a directory or file with the name already exists (like USA or UK)
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^visasponsorshipjobsin([a-zA-Z0-9-]+)$ jobs.html?country=$1 [L,QSA]

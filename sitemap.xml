@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Core Pages -->
+  <!-- Homepage -->
   <url>
     <loc>https://visasponsorshipjobs.in/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Main Job Pages -->
   <url>
     <loc>https://visasponsorshipjobs.in/jobs</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- Blog -->
   <url>
     <loc>https://visasponsorshipjobs.in/blog</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- About / Privacy / Terms -->
   <url>
     <loc>https://visasponsorshipjobs.in/about</loc>
     <lastmod>2026-01-21</lastmod>
@@ -26,7 +32,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://visasponsorshipjobs.in/disclaimer</loc>
+    <loc>https://visasponsorshipjobs.in/privacy</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -38,121 +44,9 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://visasponsorshipjobs.in/privacy</loc>
+    <loc>https://visasponsorshipjobs.in/disclaimer</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
-  </url>
-
-  <!-- Country Landing Pages -->
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinusa</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinuk</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinaustralia</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinaustria</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinbelgium</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsincanada</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsindenmark</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinfinland</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinfrance</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsingermany</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsiniceland</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinireland</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinjapan</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinluxembourg</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinnetherlands</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinnewzealand</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinnorway</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinportugal</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinsingapore</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinsouthkorea</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinsweden</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://visasponsorshipjobs.in/visasponsorshipjobsinswitzerland</loc>
-    <lastmod>2026-01-21</lastmod>
-    <priority>0.8</priority>
   </url>
 </urlset>
