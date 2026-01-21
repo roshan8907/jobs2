@@ -9,8 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
     updateNavAuth();
 
-    // Only load jobs if we need them (homepage or jobs page)
-    if (document.getElementById('jobsGrid') || document.getElementById('allJobsGrid') || window.location.pathname.includes('jobs.html')) {
+    // Log to verify initialization
+    console.log('Site initialized, checking for job containers...');
+
+    // Load jobs if any relevant container exists
+    if (document.getElementById('jobsGrid') || document.getElementById('allJobsGrid')) {
         fetchAllJobs();
     }
 });
@@ -81,21 +84,27 @@ function initMobileMenu() {
 
 // Load jobs from local data.js
 function fetchAllJobs() {
-    // We already have jobsData from data.js
-    if (!jobsData || jobsData.length === 0) {
-        const container = document.getElementById('jobsGrid') || document.getElementById('allJobsGrid');
-        if (container) container.innerHTML = '<p>Error loading jobs. Please check data.js.</p>';
-        return;
-    }
+    try {
+        console.log('Fetching labs, jobsData count:', typeof jobsData !== 'undefined' ? jobsData.length : 'undefined');
 
-    // Sort jobsData by ID descending to show newest first
-    jobsData.sort((a, b) => b.id - a.id);
+        // We already have jobsData from data.js
+        if (typeof jobsData === 'undefined' || !jobsData || jobsData.length === 0) {
+            const container = document.getElementById('jobsGrid') || document.getElementById('allJobsGrid');
+            if (container) container.innerHTML = '<p>Error: Job data not loaded. Please refresh the page.</p>';
+            return;
+        }
 
-    if (document.getElementById('jobsGrid')) {
-        renderJobs(jobsData.slice(0, 6), 'jobsGrid');
-        updateJobCounts();
-    } else if (document.getElementById('allJobsGrid')) {
-        initJobsPage();
+        // Sort jobsData by ID descending to show newest first
+        const sortedJobs = [...jobsData].sort((a, b) => (parseInt(b.id) || 0) - (parseInt(a.id) || 0));
+
+        if (document.getElementById('jobsGrid')) {
+            renderJobs(sortedJobs.slice(0, 6), 'jobsGrid');
+            updateJobCounts();
+        } else if (document.getElementById('allJobsGrid')) {
+            initJobsPage();
+        }
+    } catch (error) {
+        console.error('Error in fetchAllJobs:', error);
     }
 }
 
