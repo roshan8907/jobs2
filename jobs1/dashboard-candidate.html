@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Dashboard - Visa Sponsorship Jobs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .dashboard-header {
+            background: var(--bg-secondary);
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .sidebar {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .app-item {
+            border-bottom: 1px solid #eee;
+            padding: 1rem 0;
+        }
+
+        .app-item:last-child {
+            border-bottom: none;
+        }
+
+        .status-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 99px;
+            font-size: 0.8rem;
+            background: #e0f2fe;
+            color: #0369a1;
+        }
+
+        .logout-btn {
+            color: #ef4444;
+            cursor: pointer;
+            margin-top: 2rem;
+            display: block;
+        }
+
+        /* Candidate Dashboard Upgrade: Cards and Image */
+        .app-card {
+            display: flex;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .app-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .app-image {
+            width: 150px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .app-content {
+            padding: 1.5rem;
+            flex: 1;
+        }
+
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+        }
+
+        .app-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0;
+            color: var(--text-dark, #1e293b);
+        }
+
+        .app-company {
+            color: var(--text-medium, #64748b);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .app-meta {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        @media (max-width: 600px) {
+            .app-card {
+                flex-direction: column;
+            }
+
+            .app-image {
+                width: 100%;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <img src="logo-new.png" alt="Visa Sponsorship Jobs"
+                        style="height: 40px; margin-right: 10px; vertical-align: middle;">
+                    Visa Sponsorship Jobs - Global <span>Jobs</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="jobs.html">Find Jobs</a></li>
+                    <li><a href="#" id="userNameDisplay">My Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="dashboard-header">
+        <div class="container">
+            <h1>My Dashboard</h1>
+            <p>Welcome back, <span id="welcomeName">Candidate</span></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="dashboard-grid">
+            <aside class="sidebar">
+                <h3>Menu</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                    <li style="margin-bottom: 0.5rem;"><a href="#" class="active">My Applications</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="#">Profile Settings</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="#">Saved Jobs</a></li>
+                </ul>
+                <a onclick="logout()" class="logout-btn">Log Out</a>
+            </aside>
+            <main class="main-content">
+                <h2>Application History</h2>
+                <div id="applicationsList">
+                    <p>Loading applications...</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        async function loadDashboard() {
+            const token = localStorage.getItem('token');
+            if (!token) {
+                window.location.href = 'login.html';
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/api/dashboard/candidate`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                if (!response.ok) throw new Error('Failed to load dashboard');
+
+                const data = await response.json();
+                document.getElementById('userNameDisplay').textContent = data.user.name;
+                document.getElementById('welcomeName').textContent = data.user.name;
+
+                const appList = document.getElementById('applicationsList');
+                if (data.applications.length === 0) {
+                    appList.innerHTML = '<p>You haven\'t applied to any jobs yet. <a href="jobs.html">Start searching!</a></p>';
+                } else {
+                    const countryCodes = {
+                        'usa': 'us', 'uk': 'gb', 'canada': 'ca', 'australia': 'au', 'new-zealand': 'nz',
+                        'germany': 'de', 'france': 'fr', 'netherlands': 'nl',
+                        'sweden': 'se', 'norway': 'no', 'denmark': 'dk', 'finland': 'fi', 'switzerland': 'ch', 'austria': 'at', 'belgium': 'be',
+                        'luxembourg': 'lu', 'portugal': 'pt',
+                        'ireland': 'ie', 'iceland': 'is', 'japan': 'jp', 'south-korea': 'kr', 'singapore': 'sg'
+                    };
+
+                    appList.innerHTML = data.applications.map(app => {
+                        const flagCode = countryCodes[app.country] || 'un';
+                        const flagUrl = `https://flagcdn.com/w40/${flagCode}.png`;
+                        return `
+                        <div class="app-card">
+                            <img src="${app.jobImage}" 
+                                 alt="${app.jobTitle}" 
+                                 class="app-image" 
+                                 onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80';">
+                            <div class="app-content">
+                                <div class="app-header">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem;">
+                                            <img src="${flagUrl}" style="width: 16px; height: auto; border-radius: 1px;">
+                                            <h3 class="app-title">${app.jobTitle}</h3>
+                                        </div>
+                                        <div class="app-company">${app.company}</div>
+                                    </div>
+                                    <span class="status-badge">Submitted</span>
+                                </div>
+                                <div class="app-meta">
+                                    <span>Applied on: ${new Date(app.submittedAt).toLocaleDateString()}</span>
+                                    <span>•</span>
+                                    <a href="job-details.html?id=${app.jobId}" style="color:var(--primary-color)">View Job</a>
+                                </div>
+                            </div>
+                        </div>
+                    `}).join('');
+                }
+            } catch (err) {
+                console.error(err);
+                // localStorage.removeItem('token');
+                // window.location.href = 'login.html';
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem('token');
+            localStorage.removeItem('user');
+            window.location.href = 'index.html';
+        }
+
+        loadDashboard();
+    </script>
+</body>
+
+</html>

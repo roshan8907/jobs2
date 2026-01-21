@@ -1,0 +1,18 @@
+# Netlify Deployment - Static Site Only
+
+# Build command (none needed for static)
+[build]
+  publish = "."
+  command = ""
+
+# Redirect all API calls to use local data.js instead
+[[redirects]]
+  from = "/api/*"
+  to = "/index.html"
+  status = 200
+
+# SPA fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

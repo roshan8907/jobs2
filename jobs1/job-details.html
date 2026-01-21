@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Details - Visa Sponsorship Jobs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap&font-display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --bg-light: #f8fafc;
+            --text-dark: #1e293b;
+            --text-medium: #64748b;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .job-details-page {
+            padding: 2rem 0 5rem;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .breadcrumb {
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: var(--text-medium);
+        }
+
+        .breadcrumb a {
+            color: var(--text-medium);
+            text-decoration: none;
+        }
+
+        .job-header-section {
+            margin-bottom: 2rem;
+        }
+
+        .job-main-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0 0 1.5rem 0;
+            color: var(--text-dark);
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .job-description-container {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .section-label {
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .job-content-text {
+            line-height: 1.7;
+            color: #334155;
+            white-space: pre-wrap;
+        }
+
+        /* Sidebar Card */
+        .job-sidebar-card {
+            background: white;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            position: sticky;
+            top: 100px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar-logo-wrapper {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .sidebar-logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .sidebar-job-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0 0 0.25rem 0;
+            text-align: center;
+        }
+
+        .sidebar-company {
+            color: var(--text-medium);
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .sidebar-info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+
+        .sidebar-info-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+        }
+
+        .info-icon {
+            color: var(--text-medium);
+            flex-shrink: 0;
+        }
+
+        .industry-badge {
+            display: inline-block;
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 0.25rem 0.75rem;
+            border-radius: 99px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .salary-text {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #16a34a;
+            margin-bottom: 0.5rem;
+        }
+
+        .posted-date {
+            font-size: 0.85rem;
+            color: var(--text-medium);
+            margin-top: 1rem;
+        }
+
+        .channel-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .channel-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.6rem 1.25rem;
+            border-radius: 6px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .telegram-btn {
+            color: #0088cc;
+            border: 1px solid #0088cc;
+            background: #fff;
+        }
+
+        .telegram-btn:hover {
+            background: #f0f7ff;
+            transform: translateY(-2px);
+        }
+
+        .whatsapp-btn {
+            color: #25d366;
+            border: 1px solid #25d366;
+            background: #fff;
+        }
+
+        .whatsapp-btn:hover {
+            background: #f0fff4;
+            transform: translateY(-2px);
+        }
+
+        .job-disclaimer {
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px dashed var(--border-color);
+        }
+
+        .job-disclaimer h4 {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+        }
+
+        .job-disclaimer p {
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        .apply-btn-large {
+            width: 100%;
+            padding: 1.25rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: var(--radius-md);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-base);
+            margin-top: 1rem;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+        }
+
+        .apply-btn-large:hover {
+            background: var(--primary-dark);
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(16, 185, 129, 0.3);
+        }
+
+        .desktop-actions {
+            display: block;
+        }
+
+        .mobile-actions {
+            display: none;
+            padding: 2rem;
+            background: white;
+            border-top: 1px solid var(--border-color);
+            margin-top: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .report-ad-link {
+            display: block;
+            text-align: center;
+            color: #f97316;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-top: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .report-ad-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 992px) {
+            .details-grid {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .job-main-column {
+                order: 2;
+                margin-top: 1.5rem;
+            }
+
+            .job-sidebar-column {
+                order: 1;
+            }
+
+            .job-sidebar-card {
+                position: static;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .sidebar-info-list {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .desktop-actions {
+                display: none;
+            }
+
+            .channel-buttons {
+                flex-direction: column;
+            }
+
+            .mobile-actions {
+                display: block;
+                background: white;
+                padding: 1.5rem;
+                margin-top: 2rem;
+                border-radius: 12px;
+                box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+                border: 1px solid var(--border-color);
+                text-align: center;
+            }
+
+            .mobile-actions .apply-btn-large {
+                margin-top: 0;
+                padding: 1rem;
+                font-size: 1.15rem;
+                box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.2);
+            }
+
+            .posted-date {
+                margin-bottom: 1rem;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <img src="logo-new.png" alt="Visa Sponsorship Jobs"
+                        style="height: 40px; margin-right: 10px; vertical-align: middle;">
+                    Visa Sponsorship Jobs - Global <span>Jobs</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Countries</a>
+                        <ul class="dropdown-menu countries-dropdown">
+                            <div class="dropdown-column">
+                                <li><a href="jobs.html?country=australia">Australia</a></li>
+                                <li><a href="jobs.html?country=austria">Austria</a></li>
+                                <li><a href="jobs.html?country=belgium">Belgium</a></li>
+
+
+                                <li><a href="jobs.html?country=canada">Canada</a></li>
+                                <li><a href="jobs.html?country=denmark">Denmark</a></li>
+                                <li><a href="jobs.html?country=finland">Finland</a></li>
+
+                                <li><a href="jobs.html?country=france">France</a></li>
+                                <li><a href="jobs.html?country=germany">Germany</a></li>
+                            </div>
+                            <div class="dropdown-column">
+                                <li><a href="jobs.html?country=iceland">Iceland</a></li>
+                                <li><a href="jobs.html?country=ireland">Ireland</a></li>
+                                <li><a href="jobs.html?country=japan">Japan</a></li>
+                                <li><a href="jobs.html?country=luxembourg">Luxembourg</a></li>
+                                <li><a href="jobs.html?country=netherlands">Netherlands</a></li>
+                                <li><a href="jobs.html?country=new-zealand">New Zealand</a></li>
+                                <li><a href="jobs.html?country=norway">Norway</a></li>
+                                <li><a href="jobs.html?country=portugal">Portugal</a></li>
+                            </div>
+                            <div class="dropdown-column">
+                                <li><a href="jobs.html?country=singapore">Singapore</a></li>
+                                <li><a href="jobs.html?country=south-korea">South Korea</a></li>
+                                <li><a href="jobs.html?country=sweden">Sweden</a></li>
+                                <li><a href="jobs.html?country=switzerland">Switzerland</a></li>
+
+                                <li><a href="jobs.html?country=uk">United Kingdom</a></li>
+                                <li><a href="jobs.html?country=usa">United States</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="job-details-page">
+        <div class="container">
+            <div id="jobLoading" style="text-align: center; padding: 6rem 0;">
+                <div class="spinner"
+                    style="border: 4px solid var(--border-color); border-top: 4px solid var(--primary-color); border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin: 0 auto 1.5rem;">
+                </div>
+                <p style="color: var(--text-medium); font-weight: 500;">Fetching the latest opportunities...</p>
+            </div>
+
+            <div id="jobContent" style="display:none;">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / <a href="jobs.html">Vacancies</a> / <span id="breadTitle"></span>
+                </div>
+
+                <div class="job-header-section">
+                    <h1 id="jobTitle" class="job-main-title"></h1>
+                </div>
+
+                <div class="details-grid">
+                    <div class="job-main-column">
+                        <div class="job-description-container">
+                            <span class="section-label">Job Description:</span>
+                            <div id="jobDescription" class="job-content-text"></div>
+                        </div>
+
+                        <div class="mobile-actions">
+                            <button class="apply-btn-large" onclick="handleApply()">Apply Now</button>
+                            <a href="mailto:helpvisaglobaljobs@gmail.com" class="report-ad-link">REPORT THIS AD</a>
+                        </div>
+
+                        <div class="channel-buttons">
+                            <a href="https://t.me/visasponsorshipjobsworldwide" target="_blank"
+                                class="channel-btn telegram-btn">
+                                <i class="fab fa-telegram-plane"></i> Join our Telegram Channel
+                            </a>
+                            <a href="https://whatsapp.com/channel/0029Vb7dC3vIt5rqlWsgix3v" target="_blank"
+                                class="channel-btn whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Join our WhatsApp Channel
+                            </a>
+                        </div>
+
+                        <div class="job-disclaimer">
+                            <h4>Disclaimer:</h4>
+                            <p>_ The information contained in this website is for general information purposes only. The
+                                website goal is to connect job seekers with potential employers and provide relevant job
+                                search resources.</p>
+                        </div>
+                    </div>
+
+                    <aside class="job-sidebar-column">
+                        <div class="job-sidebar-card">
+                            <div class="sidebar-logo-wrapper">
+                                <img id="sidebarLogo" src="" alt="Company Logo" class="sidebar-logo">
+                            </div>
+                            <h3 id="sidebarTitle" class="sidebar-job-title"></h3>
+                            <div id="sidebarCompany" class="sidebar-company"></div>
+
+                            <ul class="sidebar-info-list">
+                                <li class="sidebar-info-item">
+                                    <svg class="info-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <span id="jobLocation"></span>
+                                </li>
+                                <li class="sidebar-info-item">
+                                    <svg class="info-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                    <span id="jobType"></span>
+                                </li>
+                            </ul>
+
+                            <div id="industryTag" class="industry-badge"></div>
+                            <div id="salaryInfo" class="salary-text"></div>
+
+                            <div id="visaBadge" class="industry-badge"
+                                style="background:#dcfce7; color:#166534; display:none; margin-left: 5px;">Visa
+                                Sponsorship</div>
+
+                            <div id="postedDate" class="posted-date"></div>
+
+                            <div class="desktop-actions">
+                                <button class="apply-btn-large" onclick="handleApply()">Apply Now</button>
+                                <a href="mailto:helpvisaglobaljobs@gmail.com" class="report-ad-link">REPORT THIS AD</a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">Visa Sponsorship Jobs - Global <span>Jobs</span></h3>
+                    <p>Connect with top employers globally through our platform. We specialize in finding jobs that
+                        offer
+                        visa sponsorship around the world.</p>
+                    <div class="social-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="https://facebook.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com" style="color: white; font-size: 1.25rem;"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section" style="grid-column: span 2;">
+                    <h4>Countries</h4>
+                    <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;">
+                        <li><a href="jobs.html?country=australia">Australia</a></li>
+                        <li><a href="jobs.html?country=austria">Austria</a></li>
+                        <li><a href="jobs.html?country=belgium">Belgium</a></li>
+
+
+                        <li><a href="jobs.html?country=canada">Canada</a></li>
+                        <li><a href="jobs.html?country=denmark">Denmark</a></li>
+                        <li><a href="jobs.html?country=finland">Finland</a></li>
+
+                        <li><a href="jobs.html?country=france">France</a></li>
+                        <li><a href="jobs.html?country=germany">Germany</a></li>
+                        <li><a href="jobs.html?country=iceland">Iceland</a></li>
+                        <li><a href="jobs.html?country=ireland">Ireland</a></li>
+                        <li><a href="jobs.html?country=japan">Japan</a></li>
+                        <li><a href="jobs.html?country=luxembourg">Luxembourg</a></li>
+                        <li><a href="jobs.html?country=netherlands">Netherlands</a></li>
+                        <li><a href="jobs.html?country=new-zealand">New Zealand</a></li>
+                        <li><a href="jobs.html?country=norway">Norway</a></li>
+                        <li><a href="jobs.html?country=portugal">Portugal</a></li>
+                        <li><a href="jobs.html?country=singapore">Singapore</a></li>
+                        <li><a href="jobs.html?country=south-korea">South Korea</a></li>
+                        <li><a href="jobs.html?country=sweden">Sweden</a></li>
+                        <li><a href="jobs.html?country=switzerland">Switzerland</a></li>
+
+                        <li><a href="jobs.html?country=uk">United Kingdom</a></li>
+                        <li><a href="jobs.html?country=usa">United States</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                        <li><a href="mailto:info@visasponsorjobs.com">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom" style="text-align: left; border-top: 1px solid #1f2937; padding-top: 2rem;">
+                <p style="margin-bottom: 1rem; color: #9ca3af; font-size: 0.95rem;">&copy; 2026 visasponsorshipjobs.in.
+                    All
+                    Rights Reserved.</p>
+                <div class="footer-legal-links" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <a href="terms.html"
+                        style="color: #9ca3af; text-decoration: none; font-size: 0.95rem; transition: color 0.2s;">Terms
+                        & Conditions</a>
+                    <a href="privacy.html"
+                        style="color: #9ca3af; text-decoration: none; font-size: 0.95rem; transition: color 0.2s;">Privacy
+                        Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <script src="data.js"></script>
+    <script>
+        const API_BASE = window.location.origin;
+        const urlParams = new URLSearchParams(window.location.search);
+        const jobId = urlParams.get('id');
+        let currentJob = null;
+
+        async function init() {
+            if (!jobId) {
+                window.location.href = 'index.html';
+                return;
+            }
+
+            try {
+                // 1. Try fetching from API
+                const res = await fetch(`${API_BASE}/api/jobs/${jobId}`);
+                if (res.ok) {
+                    currentJob = await res.json();
+                }
+            } catch (err) {
+                console.warn('Backend server not running, using local data...');
+            }
+
+            // 2. Fallback to local data (data.js) if API fails
+            if (!currentJob && typeof jobsData !== 'undefined') {
+                currentJob = jobsData.find(j => j.id == jobId);
+            }
+
+            // 3. Render or Error
+            if (currentJob) {
+                renderJob(currentJob);
+            } else {
+                showError();
+            }
+        }
+
+        function renderJob(job) {
+            document.getElementById('jobLoading').style.display = 'none';
+            document.getElementById('jobContent').style.display = 'block';
+
+            document.title = `${job.title} - Visa Sponsorship Jobs`;
+
+            // Update Meta Description
+            let metaDesc = document.querySelector('meta[name="description"]');
+            if (!metaDesc) {
+                metaDesc = document.createElement('meta');
+                metaDesc.name = "description";
+                document.head.appendChild(metaDesc);
+            }
+            metaDesc.content = `Apply for ${job.title} at ${job.company} in ${job.location}. ${job.visaSponsorship ? 'Visa sponsorship available.' : ''} Find more work abroad opportunities.`;
+
+            const countryCodes = {
+                'usa': 'us', 'uk': 'gb', 'canada': 'ca', 'australia': 'au', 'new-zealand': 'nz',
+                'germany': 'de', 'france': 'fr', 'netherlands': 'nl',
+                'sweden': 'se', 'norway': 'no', 'denmark': 'dk', 'finland': 'fi', 'switzerland': 'ch', 'belgium': 'be', 'austria': 'at',
+                'luxembourg': 'lu', 'portugal': 'pt',
+                'ireland': 'ie', 'iceland': 'is', 'japan': 'jp', 'south-korea': 'kr', 'singapore': 'sg'
+            };
+            const flagCode = countryCodes[job.country] || 'un';
+            const flagUrl = `https://flagcdn.com/w40/${flagCode}.png`;
+
+            document.getElementById('jobTitle').innerHTML = `
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <img src="${flagUrl}" alt="${job.country}" style="width: 32px; height: auto; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <span>${job.title}</span>
+                </div>
+            `;
+            document.getElementById('breadTitle').textContent = job.title;
+            document.getElementById('sidebarTitle').textContent = job.title;
+            document.getElementById('sidebarCompany').textContent = job.company;
+            document.getElementById('jobLocation').textContent = job.location;
+            document.getElementById('jobType').textContent = job.type;
+            document.getElementById('jobDescription').textContent = job.description;
+
+            // JobPosting Schema
+            const schema = {
+                "@context": "https://schema.org",
+                "@type": "JobPosting",
+                "title": job.title,
+                "description": job.description,
+                "datePosted": job.postedAt || "2026-01-15",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": job.company,
+                    "logo": `https://ui-avatars.com/api/?name=${encodeURIComponent(job.company)}&background=random&color=fff&size=128&bold=true`
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": job.location.split(',')[0].trim(),
+                        "addressCountry": job.country.toUpperCase()
+                    }
+                },
+                "employmentType": job.type || "Full-time"
+            };
+
+            const script = document.createElement('script');
+            script.type = "application/ld+json";
+            script.text = JSON.stringify(schema);
+            document.head.appendChild(script);
+
+            if (job.industry) {
+                document.getElementById('industryTag').textContent = job.industry;
+            } else {
+                document.getElementById('industryTag').style.display = 'none';
+            }
+
+            if (job.salary && !job.salary.toLowerCase().includes('competitive salary') && !job.salary.toLowerCase().includes('competitive +')) {
+                document.getElementById('salaryInfo').textContent = `Salary: ${job.salary}`;
+                document.getElementById('salaryInfo').style.display = 'block';
+            } else {
+                document.getElementById('salaryInfo').style.display = 'none';
+            }
+
+            if (job.visaSponsorship) {
+                const visaText = job.country === 'usa' ? 'H-1B / EB-3' : 'Visa Sponsorship';
+                document.getElementById('visaBadge').textContent = visaText;
+                document.getElementById('visaBadge').style.display = 'inline-block';
+            }
+
+            // Only show logo if it's not a placeholder (not ui-avatars.com)
+            const hasRealLogo = job.image && !job.image.includes('ui-avatars.com');
+            const logoWrapper = document.querySelector('.sidebar-logo-wrapper');
+            if (hasRealLogo) {
+                document.getElementById('sidebarLogo').src = job.image;
+                logoWrapper.style.display = 'block';
+            } else {
+                logoWrapper.style.display = 'none';
+            }
+
+            const date = job.postedAt ? new Date(job.postedAt) : new Date('2026-01-15');
+            document.getElementById('postedDate').textContent = `${date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
+        }
+
+        function showError() {
+            document.getElementById('jobLoading').innerHTML = `
+                <div style="padding: 2rem;">
+                    <h2 style="color: #ef4444;">Job Not Found</h2>
+                    <p style="color: #64748b; margin-bottom: 2rem;">The job details could not be loaded. Please ensure the server is running or check the job ID.</p>
+                    <a href="jobs.html" style="background: #2563eb; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 6px; font-weight: 600;">Browse All Jobs</a>
+                </div>
+            `;
+        }
+
+        function handleApply() {
+            if (currentJob && currentJob.externalUrl) {
+                window.open(currentJob.externalUrl, '_blank');
+            } else {
+                alert('This job listing directs to an external application site which is currently unavailable. Please try again later.');
+            }
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
