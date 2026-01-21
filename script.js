@@ -94,7 +94,7 @@ function fetchAllJobs() {
     if (document.getElementById('jobsGrid')) {
         renderJobs(jobsData.slice(0, 6), 'jobsGrid');
         updateJobCounts();
-    } else if (window.location.pathname.includes('jobs.html')) {
+    } else if (document.getElementById('allJobsGrid')) {
         initJobsPage();
     }
 }
@@ -357,7 +357,7 @@ function initJobsPage() {
 
 // Add listener to handle URL changes if user clicks a country link while already on jobs.html
 window.addEventListener('popstate', () => {
-    if (window.location.pathname.includes('jobs.html')) {
+    if (document.getElementById('allJobsGrid')) {
         initJobsPage();
     }
 });
