@@ -84,28 +84,33 @@ function initMobileMenu() {
 
 // Load jobs from local data.js
 function fetchAllJobs() {
-    try {
-        console.log('Fetching labs, jobsData count:', typeof jobsData !== 'undefined' ? jobsData.length : 'undefined');
+    // Small delay to ensure data.js is fully parsed
+    setTimeout(() => {
+        try {
+            console.log('fetchAllJobs starting... jobsData type:', typeof jobsData);
 
-        // We already have jobsData from data.js
-        if (typeof jobsData === 'undefined' || !jobsData || jobsData.length === 0) {
-            const container = document.getElementById('jobsGrid') || document.getElementById('allJobsGrid');
-            if (container) container.innerHTML = '<p>Error: Job data not loaded. Please refresh the page.</p>';
-            return;
+            if (typeof jobsData === 'undefined' || !jobsData || jobsData.length === 0) {
+                console.error('Job data missing!');
+                const container = document.getElementById('jobsGrid') || document.getElementById('allJobsGrid');
+                if (container) container.innerHTML = '<p style="text-align:center; padding:2rem;">Error: Job listings could not be loaded. Please refresh the page.</p>';
+                return;
+            }
+
+            console.log('Jobs loaded:', jobsData.length);
+
+            // Sort jobsData by ID descending to show newest first
+            const sortedJobs = [...jobsData].sort((a, b) => (parseInt(b.id) || 0) - (parseInt(a.id) || 0));
+
+            if (document.getElementById('jobsGrid')) {
+                renderJobs(sortedJobs.slice(0, 6), 'jobsGrid');
+                updateJobCounts();
+            } else if (document.getElementById('allJobsGrid')) {
+                initJobsPage();
+            }
+        } catch (error) {
+            console.error('Error in fetchAllJobs:', error);
         }
-
-        // Sort jobsData by ID descending to show newest first
-        const sortedJobs = [...jobsData].sort((a, b) => (parseInt(b.id) || 0) - (parseInt(a.id) || 0));
-
-        if (document.getElementById('jobsGrid')) {
-            renderJobs(sortedJobs.slice(0, 6), 'jobsGrid');
-            updateJobCounts();
-        } else if (document.getElementById('allJobsGrid')) {
-            initJobsPage();
-        }
-    } catch (error) {
-        console.error('Error in fetchAllJobs:', error);
-    }
+    }, 100);
 }
 
 // ==================== Job Rendering ====================
@@ -341,7 +346,7 @@ if (heroPills.length > 0) {
 }
 
 // ==================== Jobs Page Logic ====================
-function initJobsPage() {
+function initJobsPage(data) {
     const urlParams = new URLSearchParams(window.location.search);
     const q = urlParams.get('q') || '';
     const c = urlParams.get('country') || '';
