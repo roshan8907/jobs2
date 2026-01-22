@@ -5,3 +5,5 @@ db.json
 compress_images.js
 convert_to_webp.js
 SEO_SPEED_MOBILE_OPTIMIZATION_REPORT.md
+*.zip
+node_modules/
