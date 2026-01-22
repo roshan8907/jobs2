@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://visasponsorshipjobs.in/sitemap.xml
