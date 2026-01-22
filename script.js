@@ -426,7 +426,7 @@ function filterAndRenderJobs() {
             job.company.toLowerCase().includes(keyword) ||
             (job.description && job.description.toLowerCase().includes(keyword))
         );
-    }
+    }//
 
     // Filter by Location
     if (location && location !== 'all') {
