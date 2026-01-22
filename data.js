@@ -3855,5 +3855,46 @@ Phone enquiries welcome: Steve — 0428 875 001.`,
         visaSponsorship: true,
         publishedDate: "Jan 21, 2026",
         externalUrl: "https://www.seek.com.au/job/89818449?ref=search-standalone&type=promoted&origin=showNewTab#sol=69dee7b88443329d2a2b01b6e05380475dfa0a08"
+    },
+    {
+        id: 111,
+        slug: "teacher-4th-grade-cumberland-county-school-district",
+        title: "Teacher - 4th Grade",
+        company: "Cumberland County School District",
+        location: "Fayetteville, North Carolina, United States",
+        country: "usa",
+        type: "Full-time",
+        industry: "Education",
+        salary: "$4,100 a month",
+        image: "https://ui-avatars.com/api/?name=Cumberland+County+School+District&background=random&color=fff&size=128&bold=true",
+        description: `Job Description:
+QUALIFICATIONS: A four-year degree from an accredited institution with NC certification in assigned area of teaching. -See Application Requirements below-
+REPORTS TO: Principal
+JOB GOAL: To demonstrate leadership, to establish a respectful environment for a diverse population of students, to know the content they teach, to facilitate learning for their students, and to reflect on their practice.
+ROLES AND RESPONSIBILITIES: Teachers demonstrate the value of lifelong learning and encourage their students to learn and grow by :
+Building leadership among the staff and with the administration in order to bring about consensus and common shared ownership of the vision and purpose of work of the school.
+Making the content they teach engaging, relevant, and meaningful to students’ lives by aligning their instruction with the common core, essential standards, and 21st-century content which includes: global awareness, financial, economic, business, entrepreneurial literacy, civic literacy, and health awareness.
+Teaching existing core content that is revised to include skills like critical thinking, problem-solving, and information and communications technology (ICT) literacy.
+Facilitating instruction using a variety of instructional methods that are appropriate for their students by integrating and utilizing technology.
+Using a variety of methods to assess what students have learned and to help them work in teams and develop leadership qualities.
+Working collaboratively with the families and significant adults in the lives of their students, adapts their teaching for the benefit of students with special needs, and embraces fairness in the school community and in the world.
+Demonstrating ethical principles including honesty, integrity, fair treatment, and respect for others. (Code of Ethics for NC Educators, NCAC 6C.0601; Standards of Professional Conduct for NC Educators, NCAC 6C.0602)
+Serves as a team player and role model for other employees in the organization; demonstrates a commitment to continuous quality improvement; supports and exhibits organizational core values of caring, respect, integrity, responsibility, high expectations, being customer-driven, and valuing fairness.
+Performs other duties and accepts responsibilities as assigned.
+
+PHYSICAL REQUIREMENTS :
+Must be able to communicate orally and in writing with parents, staff, and community leaders.
+Must have finger dexterity and be able to physically perform the basic life operational functions of kneeling, sitting, walking, stooping, reaching, lifting, pushing, pulling, talking, seeing, hearing, and repetitive motion.
+
+APPLICATION REQUIREMENTS FOR ALL APPLICANTS:
+Current Certified Teachers will upload legible copy of official transcript for all degree levels in PDF Format Only, a copy of an NC Teaching License or other current license, and a resume.
+Residency candidates will upload legible copy of official Bachelor's transcripts in PDF Format Only , any previously licensed information, and resume.
+International applicants not affiliated with any sponsoring program- upload legible copy of original foreign transcript, copy of official Evaluated Transcript from reputable company in PDF Format Only , copy of the Social Security Card and a front/back copy of either the Work Authorization Card or Permanent Resident Card, and resume.
+
+SPECIAL REQUIREMENTS:
+Background check with local and state law enforcement agencies required.`,
+        visaSponsorship: true,
+        publishedDate: "Jan 22, 2026",
+        externalUrl: "https://www.indeed.com/viewjob?jk=e5819c455413b5cc"
     }
 ];
