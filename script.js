@@ -431,8 +431,7 @@ function filterAndRenderJobs() {
     // Filter by Location
     if (location && location !== 'all') {
         results = results.filter(job => job.country === location);
-    }
-
+    } //
     // Filter by Industry
     if (industry) {
         results = results.filter(job => {
